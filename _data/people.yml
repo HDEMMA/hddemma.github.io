@@ -1,0 +1,132 @@
+- picture: /img/people/dubey.jpg
+  name: Abhishek Dubey
+  role: Lead-PI
+  org: Vanderbilt University
+  link: https://my.vanderbilt.edu/dabhishe/
+  sequence: 1
+
+- picture: /img/people/philip.jpg
+  name: Philip Pugliese
+  org: CARTA
+  link: https://www.linkedin.com/in/philippugliese
+  role: PI
+  sequence: 2
+
+- picture: /img/people/aron.jpg
+  name: Aron Laszka
+  org: University of Houston
+  link: https://aronlaszka.com/
+  role: PI
+  sequence: 3
+
+- picture: /img/people/samitha.jpg
+  name: Samitha Samaranayake
+  org: Cornell University
+  link: https://cee.cornell.edu/samitha/
+  role: PI
+  sequence: 3
+
+- picture: /img/people/neema_himanshu.png
+  name: Himanshu Neema
+  org: Vanderbilt University
+  link: https://engineering.vanderbilt.edu/bio/himanshu-neema
+  role: PI
+  sequence: 3
+
+- picture: /img/people/paul.jpg
+  name: Paul Speer
+  org: Vanderbilt University
+  link: https://peabody.vanderbilt.edu/bio/paulw-speer
+  role: PI
+  sequence: 4
+
+- picture: /img/people/mina.jpg
+  name: Mina Sartipi
+  org: UT Chattanooga
+  link: https://www.utc.edu/directory/pkz758-college-of-engineering-and-computer-science-mina-sartipi/pkz758
+  role: PI
+  sequence: 5
+
+- picture: /img/people/chandra.jpg
+  name: Chandra Ward
+  org: UT Chattanooga
+  link: https://www.utc.edu/research/center-for-urban-informatics-and-progress/our-team/chandra-ward
+  role: PI
+  sequence: 6
+
+- picture: /img/people/lillian.jpg
+  name: Lillian Ratliff
+  org: UW
+  link: https://faculty.washington.edu/ratliffl/
+  role: PI
+  sequence: 7
+
+- picture: /img/people/ayan.jpg
+  name: Ayan Mukhopadhyay
+  org: Vanderbilt University
+  link: https://ayanmukhopadhyay.github.io/
+  role: Research Scientist
+  sequence: 8
+
+- picture: /img/people/malini.jpg
+  name: Malini Ghosal
+  org: PNNL
+  link: https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=3014
+  role: PI  
+  sequence: 9
+
+- picture: /img/people/michael.jpg
+  name: Michael Wilbur
+  org: Vanderbilt University
+  link: https://www.linkedin.com/in/michael-p-wilbur-a0aabab6
+  role: Graduate Research Assistant
+  sequence: 10
+
+- picture: /img/people/Afiya.jpg
+  name: Afiya Ayman
+  org: University of Houston
+  role: Graduate Research Assistant
+  sequence: 11
+
+- picture: /img/people/sayyed.jpg
+  name: Sayyed Mohsen Vazirizade
+  org: Vanderbilt University
+  role: Postdoc
+  sequence: 11
+
+
+- picture: /img/people/amutheezan.jpg
+  name: Amutheezan Sivagnanam
+  org: University of Houston
+  link: https://amutheezan.com/
+  role: Graduate Research Assistant
+  sequence: 12
+
+- picture: /img/people/shadi.jpeg
+  name: Shadi Omidvar Tehrani
+  org: Vanderbilt University
+  link: https://www.researchgate.net/profile/Shadi-Omidvar-Tehrani-2
+  role: Graduate Research Assistant
+  sequence: 12
+
+- picture: /img/people/jordan.jpg
+  name: Jordan Jurinsky
+  org: Vanderbilt University
+  link: https://peabody.vanderbilt.edu/bio/jordan-jurinsky
+  role: Graduate Research Assistant
+  sequence: 12
+
+- picture: /img/people/geoff.jpg
+  name: Geoff Pettet
+  org: Vanderbilt University
+  link: https://www.linkedin.com/in/geoffrey-pettet-18065290
+  role: Graduate Research Assistant
+  sequence: 12
+
+- picture: /img/people/mehdi.webp
+  name: Medhi Khaleghian
+  org: UT Chattanooga
+  link: https://www.linkedin.com/in/mehdi-khaleghian-0b827237?trk=public_profile_browsemap_profile-result-card_result-card_full-click
+  role: Graduate Research Assistant
+  sequence: 12
+  

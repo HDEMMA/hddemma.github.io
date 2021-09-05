@@ -7,10 +7,13 @@
       url: /#aboutus
     - title: Focus Areas
       url: /#research
-    - title: Team
-      url: /#team
     - title: Activities
       url: /#activities
+    - title: Partnering Organizations
+      url: /#team
+    - title: People
+      url: /#people
+    
 
 - title: "HD-EMMA"
   url: /energy.html
@@ -24,14 +27,14 @@
 - title: "Talks"
   url: /talks/
 
-- title: "CARTA Energy Dashboard"
-  url: /energydashboard/
+# - title: "CARTA Energy Dashboard"
+#   url: /energydashboard/
 
-- title: "WeGo Occupancy Dashboard"
-  url: /wegodashboard/
+# - title: "WeGo Occupancy Dashboard"
+#   url: /wegodashboard/
   
-- title: "CARTA Occupancy Dashboard"
-  url: /cartadashboard/
+- title: "Analysis Dashboard"
+  url: https://transitdashboard.smarttransit.ai/
 
 - title: "Posts"
   url: /post/

@@ -7,6 +7,12 @@ a {
   }
 }
 
+.fit-image{
+  width: 100%;
+  object-fit: cover;
+  height: 175px; /* only if you want fixed height */
+  }
+
 .btn-primary {
   background-color: $primary !important;
   border-color: $primary !important;
