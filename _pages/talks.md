@@ -3,8 +3,12 @@ title: "Talks and mentions about our work"
 permalink: /talks/
 author_profile: true
 ---
+# Talks
 
-# Talks and Mentions
+* [Presentation given to the federal transit authority about the project.](files/SmartTransitOverview.pdf)
+
+
+# Mentions
 
 * [CARTA was named the sustainable transportation award winner](https://www.chattanoogan.com/2020/11/19/418690/CARTA-Named-Sustainable-Transportation.aspx) by TDEC in Nov 2020.
 
