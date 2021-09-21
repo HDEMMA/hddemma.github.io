@@ -208,7 +208,7 @@ Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Founda
     <div class="container-fluid">
       <div class="content-section-heading text-center">
         <h2 class="mdc-typography--headline2 p-2 text-center m-0 p-0">Selected
-          Activities</h2>
+          Articles and Talks</h2>
       </div>
       <div class="row no-gutters justify-content-center">
         {% for act in sortedactivities %}
@@ -230,6 +230,10 @@ Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Founda
           </div>
         </div>
         {% endfor %}
+      </div>
+      <div class="caption text-center">
+      <a class="btn btn-dark js-scroll-trigger"
+                href="/talks/">Learn More</a>   
       </div>
     </div>
   </section>
