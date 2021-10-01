@@ -9,7 +9,7 @@ author_profile: true
 * [Presentation given to the federal transit authority about the project.]({{ site.url }}/files/SmartTransitOverview.pdf)
 * [Presentation given about the enery prediction models at ECML 2021 by Michael Wilbur.](https://recorder-v3.slideslive.com/?share=47654&s=8dfe06e3-ef82-476c-ba21-02264708cd0b). Energy and Emission Prediction for Mixed-Vehicle Transit Fleets Using 
 Multi-Task and Inductive Transfer Learning @ ECML 2021.
-* [Presentation given about the data architecture of the system]({{ site.url }}/files/ecml2021poster.pdf) by Michael Wilbur at CPS Week 2021 and AAAI 2021 workshops.
+* [Presentation given about the data architecture of the system]({{ site.url }}/files/ci-cps.pdf) by Michael Wilbur at CPS Week 2021 and AAAI 2021 workshops.
 * [Presentation about the transit-gym simulation engine]({{ site.url }}/files/Presentation-Transit-Gym-Final.pdf). More information about transit gym is available at the [github repository](https://github.com/smarttransit-ai/transit-simulator). The video of talk is available on [youtube](https://youtu.be/Fw4UQGcB80o).
 * We presented progress on our work in the National Science Foundation Smart and Connected Community PI Meeting 2021. The presentations are available here: [Addressing Transit Accessibility and Public Health Challenges due to COVID-19]({{ site.url }}/files/sccpimeeting2021/CNS_2029950_2029952.pdf) and [Mobility for All -Harnessing Emerging Transit Solutions for Underserved Communities]({{ site.url }}/files/sccpimeeting2021/MobilityForAll.pdf)
 
