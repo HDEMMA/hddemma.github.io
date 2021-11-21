@@ -9,12 +9,23 @@
 eets. However, because of the high upfront cost of these vehicles, most agencies are tasked with managing a mixed-fleet of internal combustion vehicles (ICEVs), EVs, and HVs. In managing mixed-fleets, agencies require accurate predictions of energy use for optimizing the assignment of vehicles to transit routes, scheduling charging, and ensuring that emission standards are met. The current state-of-the-art is to develop separate neural network models to predict energy consumption for each vehicle class. Although different vehicle classes' energy consumption depends on a varied set of covariates, we hypothesize that there are broader generalizable patterns that govern energy consumption and emissions. In this paper, we seek to extract these patterns to aid learning to address two problems faced by transit agencies. First, in the case of a transit agency which operates many ICEVs, HVs, and EVs, we use multi-task learning (MTL) to improve accuracy of forecasting energy consumption. Second, in the case where there is a significant variation in vehicles in each category, we use inductive transfer learning (ITL) to improve predictive accuracy for vehicle class models with insufficient data. As this work is to be deployed by our partner agency, we also provide an online pipeline for joining the various sensor streams for xed-line transit energy prediction. We find that our approach outperforms vehicle-specific baselines in both the MTL and ITL settings.}
 }
 
-@Article{yucheTRB21,
+@article{yucheTRB21,
   author   = {Yunteng Zhang and Yuche Chen and Ruixiao Sun and Abhishek Dubey and Philip Pugliese},
-  title    = {A Data Partitioning-based Artificial Neural Network Model 1 to Estimate Real-driving2 Energy Consumption of Electric Buses},
+  title    = {A Data Partitioning-based Artificial Neural Network Model to Estimate Real-driving  Energy Consumption of Electric Buses},
   journal  = {Transportation Research Board 100th Annual Meeting},
   year     = {2021},
-  abstract = {Reliable and accurate estimation of electric bus energy consumption is critical for electric bus operation and planning. But energy prediction for electric buses is challenging because of diversified driving cycles of transit services. We propose to establish a data-partition based artificial neural network model to predict energy consumption of electric buses at microscopic level and link level. The purpose of data partitioning is to separate data into charging and discharging modes and then develop most efficient prediction for each mode. We utilize a long-term transit operation and energy consumption monitoring dataset from Chattanooga, SC to train and test our neural network models. The microscopic model  estimates energy consumption of electric bus at 1Hz frequency based on instantaneous driving and road environment data. The prediction errors of micro model ranges between 8% and 15% on various instantaneous power demand, vehicle specific power, bins. The link-level model is to predict average energy consumption rate based on aggregated traffic pattern parameters derived from instantaneous driving data at second level. The prediction errors of link-level model are around 15% on various average speed, temperature and road grade conditions. The validation results demonstrate our models’ capability to capture impacts of driving, meteorology and road grade on electric bus energy consumption at different temporal and spatial resolution.},
+  abstract = {Reliable and accurate estimation of electric bus energy consumption is critical for electric bus operation and planning. But energy prediction for electric buses is challenging because of diversified driving cycles of transit services. We propose to establish a data-partition based artificial neural network model to predict energy consumption of electric buses at microscopic level and link level. The purpose of data partitioning is to separate data into charging and discharging modes and then develop most efficient prediction for each mode. We utilize a long-term transit operation and energy consumption monitoring dataset from Chattanooga, SC to train and test our neural network models. The microscopic model  estimates energy consumption of electric bus at 1Hz frequency based on instantaneous driving and road environment data. The prediction errors of micro model ranges between 8% and 15% on various instantaneous power demand, vehicle specific power, bins. The link-level model is to predict average energy consumption rate based on aggregated traffic pattern parameters derived from instantaneous driving data at second level. The prediction errors of link-level model are around 15% on various average speed, temperature and road grade conditions. The validation results demonstrate our models’ capability to capture impacts of driving, meteorology and road grade on electric bus energy consumption at different temporal and spatial resolution.}
+}
+
+@article{perivier2021real,
+  title={Real-time Approximate Routing for Smart Transit Systems},
+  author={Banerjee, Siddhartha and Hssaine, Chamsi and P{\'e}rivier, No{\'e}mie and Samaranayake, Samitha},
+  journal={Proceedings of the ACM on Measurement and Analysis of Computing Systems},
+  volume={5},
+  number={2},
+  pages={1--30},
+  year={2021},
+  publisher={ACM New York, NY, USA}
 }
 
 @inproceedings{rsuicfc2020,
