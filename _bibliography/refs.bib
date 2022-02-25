@@ -146,6 +146,25 @@ simulated case study from a mid-size U.S. city.},
   url       = {https://doi.org/10.1007/978-3-030-37188-3\_16}
 }
 
+@inproceedings{jp2022,
+  title     = {Anomaly based Incident Detection in Large Scale Smart Transportation Systems},
+  booktitle = {ACM/IEEE 13th International Conference on Cyber-Physical Systems (ICCPS)},
+  publisher = {IEEE},
+  author    = {Islam, Jaminur and Talusan, Jose Paolo and Bhattacharjee, Shameek and Tiausas, Francis and Vazirizade, Sayyed Mohsen and Dubey, Abhishek and Yasumoto, Keiichi and Das, Sajal},
+  year      = {2022},
+  month     = {Apr},
+  abstract  = {Modern smart cities are focusing on smart transportation solutions to detect and mitigate the effects of various traffic incidents in the city. To materialize this, roadside units and ambient transportation sensors are being deployed to collect vehicular data that provides real-time traffic monitoring. In this paper, we first propose a real-time data-driven anomaly-based traffic incident detection framework for a city-scale smart transportation system. Specifically, we propose an incremental region growing approximation algorithm for optimal Spatio-temporal clustering of road segments and their data; such that road segments are strategically divided into highly correlated clusters. The highly correlated clusters enable identifying a Pythagorean Mean-based invariant as an anomaly detection metric that is highly stable under no incidents but shows a deviation in the presence of incidents. We learn the bounds of the invariants in a robust manner such that anomaly detection can generalize to unseen events, even when learning from real noisy data. We perform extensive experimental validation using mobility data collected from the City of Nashville, Tennessee, and prove that the method can detect incidents within each cluster in real-time.}
+}
+
+@inproceedings{wilbur2022,
+  title     = {An Online Approach to Solve the Dynamic Vehicle Routing Problem with Stochastic Trip Requests for Paratransit Services},
+  booktitle = {ACM/IEEE 13th International Conference on Cyber-Physical Systems (ICCPS)},
+  publisher = {IEEE},
+  author    = {Wilbur, Michael and Kadir, Salah and Kim, Youngseo and Pettet, Geoffrey and Mukhopadhyay, Ayan and Pugliese, Philip and Samaranayake, Samitha and Laszka, Aron and Dubey, Abhishek},
+  year      = {2022},
+  month     = {Apr},
+  abstract  = {Many transit agencies operating paratransit and microtransit services have to respond to trip requests that arrive in real-time, which entails solving hard combinatorial and sequential decision-making problems under uncertainty. To avoid decisions that lead to significant inefficiency in the long term, vehicles should be allocated to requests by optimizing a non-myopic utility function or by batching requests together and optimizing a myopic utility function. While the former approach is typically offline, the latter can be performed online. We point out two major issues with such approaches when applied to paratransit services in practice. First, it is difficult to batch paratransit requests together as they are temporally sparse. Second, the environment in which transit agencies operate changes dynamically (e.g., traffic conditions can change over time), causing the estimates that are learned offline to become stale. To address these challenges, we propose a fully online approach to solve the dynamic vehicle routing problem (DVRP) with time windows and stochastic trip requests that is robust to changing environmental dynamics by construction. We focus on scenarios where requests are relatively sparse---our problem is motivated by applications to paratransit services. We formulate DVRP as a Markov decision process and use Monte Carlo tree search to compute near-optimal actions for any given state. Accounting for stochastic requests while optimizing a non-myopic utility function is computationally challenging; indeed, the action space for such a problem is intractably large in practice. To tackle the large action space, we leverage the structure of the problem to design heuristics that can sample promising actions for the tree search. Our experiments using real-world data from our partner agency show that the proposed approach outperforms existing state-of-the-art approaches both in terms of performance and robustness.}
+}
 
 @inproceedings{wilbur2020impact,
   author        = {Michael Wilbur and Afiya Ayman and Anna Ouyang and Vincent Poon and Riyan Kabir and Abhiram Vadali and Philip Pugliese and Daniel Freudberg and Aron Laszka and Abhishek Dubey},
