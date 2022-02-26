@@ -1,9 +1,3 @@
-- text: [An Online Approach to Solve the Dynamic Vehicle Routing Problem with Stochastic Trip Requests for Paratransit Services](files/wilbur2022.pdf) and [Anomaly based Incident Detection in Large Scale Smart Transportation Systems](files/jp2022.pdf) were accepted at the [13th ACM/IEEE International Conference on Cyber-Physical Systems](https://iccps.acm.org/2022/). 
-  active: true
-  date: January 2022
-  sequence: 1
-
-
 - text: Our [paper on energy prediction and emission estimation](files/ecml2021.pdf) using inductive transfer learning and multi task learning was accepted at [ECML PKDD 2021](https://2021.ecmlpkdd.org/). The code and data are available at our [github repository](https://github.com/smarttransit-ai/ECML-energy-prediction-public)
   active: true
   date: June 2021
