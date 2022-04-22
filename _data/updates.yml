@@ -1,3 +1,15 @@
+- text: Our paper on [Offline Vehicle Routing Problem with Online Bookings](files/sivagnanam2022offline.pdf) was accepted at [IJCAI 2022](https://ijcai-22.org/).  
+  active: true
+  date: April 2022
+  sequence: 7
+
+- text: Our paper on [An Online Approach to Solve the Dynamic Vehicle Routing Problem with Stochastic Trip Requests for Paratransit Services](https://arxiv.org/abs/2203.15127) was accepted at [ICCPS 2022](https://iccps.acm.org/2022/).  
+  active: true
+  date: March 2022
+  sequence: 7
+
+
+
 - text: Our [paper on energy prediction and emission estimation](files/ecml2021.pdf) using inductive transfer learning and multi task learning was accepted at [ECML PKDD 2021](https://2021.ecmlpkdd.org/). The code and data are available at our [github repository](https://github.com/smarttransit-ai/ECML-energy-prediction-public)
   active: true
   date: June 2021
