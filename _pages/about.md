@@ -73,26 +73,7 @@ redirect_from:
       </div>
   </section>
 
-  <section class="content-section" id="study">
-      <div class="content-section-heading text-center">
-      <h2 class="mdc-typography--headline2 text-center m-0 p-0">Transit Needs and Expectation Study</h2>
-    </div>
-  <div class="container-fluid p-1 m-1">
-  <div class="row p-0 m-0">
-   <div class="col-sm-6 col-lg-4 col-xl-3 p-0 ml-xl-3 my-auto mx-auto">
-   <img class="m-0 p-0 d-inline-flex" src="img/community.png" alt="community image">   
-   </div>  
-    <div class="col-lg-7 col-xl-8 p-0 m-0 mx-auto">
-   <p class="card-text text-justify   mr-4">
-   We are conducting a research study to understand the community challenges and expectation around public transit in Chattanooga, TN. The project is looking for Chattanooga residents, 18 and older, to join us in paid focus group sessions to discuss how community infrastructure supports, or does not support interests and concerns that are most important to you.</p>
-    <p class="card-text text-justify   mr-4">
-   Participants will receive gift cards for their time and help on the project. The conversations will help us better understand the needs and expectations and challenges of the community. Since the conversation will be virtual, we  invite interested participants who have a reliable internet connection to get in touch with us at Mobility.Chattanooga@gmail.com.
-   </p>
- </div> 
-  </div>  
-  </div>  
-  </section>
-
+  
   <section class="content-section" id="updates">
   <div class="content-section-heading text-justify">
    <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">News and Updates</h2>
