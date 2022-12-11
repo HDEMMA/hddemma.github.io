@@ -116,11 +116,25 @@
   role: Graduate Research Assistant
   sequence: 12
 
-- picture: /img/people/geoff.jpg
-  name: Geoff Pettet
+- picture: /img/people/ava.jpg
+  name: Ava Pettet
   org: Vanderbilt University
   link: https://www.linkedin.com/in/geoffrey-pettet-18065290
   role: Graduate Research Assistant
+  sequence: 12
+ 
+- picture: /img/people/rishav.jpg
+  name: Rishav Sen
+  org: Vanderbilt University
+  link: https://www.linkedin.com/in/rishavsen1/
+  role: Graduate Research Assistant
+  sequence: 12
+  
+- picture: /img/people/jp.jpg
+  name: Jose Paulo Talusan
+  org: Vanderbilt University
+  link: linkedin.com/in/jptalusan/
+  role: Post-doc
   sequence: 12
 
 - picture: /img/people/mehdi.webp
