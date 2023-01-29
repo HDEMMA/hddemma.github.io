@@ -1,3 +1,9 @@
+- text: Our paper on [Rolling Horizon based Temporal Decomposition for the Offline Pickup and Delivery Problem with Time Windows](files/youngseo2023.pdf) was accepted at [AAAI 2023](https://aaai.org/Conferences/AAAI-23/).  
+  active: true
+  date: Nov 2023
+  sequence: 7
+
+
 - text: Our paper on [Offline Vehicle Routing Problem with Online Bookings](files/sivagnanam2022offline.pdf) was accepted at [IJCAI 2022](https://ijcai-22.org/).  
   active: true
   date: April 2022

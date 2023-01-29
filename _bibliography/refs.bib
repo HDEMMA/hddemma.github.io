@@ -1,62 +1,92 @@
 % Encoding: UTF-8
 
 @inproceedings{youngseo2023,
-
   title     = {Rolling Horizon based Temporal Decomposition for the Offline Pickup and Delivery Problem with Time Windows},
-
   author    = {Youngseo Kim and Danushka Edirimanna and Michael Wilbur and Philip Pugliese and Aron Laszka and Abhishek Dubey and Samitha Samaranayake },
-
   booktitle = {Proceedings of the 37th AAAI Conference on Artificial Intelligence (AAAI-23)},
-
   tag       = {ai4cps,transit},
-
   abstract  = {The offline pickup and delivery problem with time windows (PDPTW) is a classical combinatorial optimization problem in the transportation community, which has proven to be very challenging computationally. Due to the complexity of the problem, practical problem instances can be solved only via heuristics, which trade-off solution quality for computational tractability. Among the various heuristics, a common strategy is problem decomposition, that is, the reduction of a largescale problem into a collection of smaller sub-problems, with spatial and temporal decompositions being two natural approaches. While spatial decomposition has been successful in certain settings, effective temporal decomposition has been challenging due to the difficulty of stitching together the sub-problem solutions across the decomposition boundaries. In this work, we introduce a novel temporal decomposition scheme for solving a class of PDPTWs that have narrow time windows, for which it is able to provide both fast and high quality solutions. We utilize techniques that have been popularized recently in the context of online dial-a-ride problems along with the general idea of rolling horizon optimization. To the best of our knowledge, this is the first attempt to solve offline PDPTWs using such an approach. To show the performance and scalability of our framework, we use the optimization of paratransit services as a motivating example. Due to the lack of benchmark solvers similar to ours (i.e., temporal decomposition with an online solver), we compare our results with an offline heuristic algorithm using Google OR-Tools. In smaller problem instances (with an average of 129 requests per instance), the baseline approach is as competitive as our framework. However, in larger problem instances (approximately 2,500 requests per instance), our framework is more scalable and can provide good solutions to problem instances of varying degrees of difficulty, while the baseline algorithm often fails to find a feasible solution within comparable compute times.},
-
   year      = {2023}
+}
 
+@inproceedings{rishav2022eEnergy,
+  author    = {Sen, Rishav and Bharati, Alok Kumar and Khaleghian, Seyedmehdi and Ghosal, Malini and Wilbur, Michael and Tran, Toan and Pugliese, Philip and Sartipi, Mina and Neema, Himanshu and Dubey, Abhishek},
+  title     = {E-Transit-Bench: Simulation Platform for Analyzing Electric Public Transit Bus Fleet Operations},
+  year      = {2022},
+  isbn      = {9781450393973},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3538637.3539586},
+  doi       = {10.1145/3538637.3539586},
+  abstract  = {When electrified transit systems make grid aware choices, improved social welfare is achieved by reducing grid stress, reducing system loss, and minimizing power quality issues. Electrifying transit fleet has numerous challenges like non availability of buses during charging, varying charging costs and so on, that are related the electric grid behavior. However, transit systems do not have access to the information about the co-evolution of the grid's power flow and therefore cannot account for the power grid's needs in its day-to-day operation. In this paper we propose a framework of transportation-grid co-simulation, analyzing the spatio-temporal interaction between the transit operations with electric buses and the power distribution grid. Real-world data for a day's traffic from Chattanooga city's transit system is simulated in SUMO and integrated with a realistic distribution grid simulation (using GridLAB-D) to understand the grid impact due to transit electrification. Charging information is obtained from the transportation simulation to feed into grid simulation to assess the impact of charging. We also discuss the impact to the grid with higher degree of transit electrification that further necessitates such an integrated transportation-grid co-simulation to operate the integrated system optimally. Our future work includes extending the platform for optimizing the charging and trip assignment operations.},
+  booktitle = {Proceedings of the Thirteenth ACM International Conference on Future Energy Systems},
+  pages     = {532–541},
+  numpages  = {10},
+  keywords  = {model-integration, cyber-physical systems, co-simulation, powergrid simulation, traffic simulation},
+  location  = {Virtual Event},
+  series    = {e-Energy '22}
+}
+
+@inproceedings{kang2022generative,
+  author    = {Kang, Zhuangwei and Mukhopadhyay, Ayan and Gokhale, Aniruddha and Wen, Shijie and Dubey, Abhishek},
+  booktitle = {2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC)},
+  title     = {Traffic Anomaly Detection Via Conditional Normalizing Flow},
+  year      = {2022},
+  volume    = {},
+  number    = {},
+  pages     = {2563-2570},
+  abstract  = {Traffic congestion anomaly detection is of paramount importance in intelligent traffic systems. The goals of transportation agencies are two-fold: to monitor the general traffic conditions in the area of interest and to locate road segments under abnormal congestion states. Modeling congestion patterns can achieve these goals for citywide roadways, which amounts to learning the distribution of multivariate time series (MTS). However, existing works are either not scalable or unable to capture the spatial-temporal information in MTS simultaneously. To this end, we propose a principled and comprehensive framework consisting of a data-driven generative approach that can perform tractable density estimation for detecting traffic anomalies. Our approach first clusters segments in the feature space and then uses conditional normalizing flow to identify anomalous temporal snapshots at the cluster level in an unsupervised setting. Then, we identify anomalies at the segment level by using a kernel density estimator on the anomalous cluster. Extensive experiments on synthetic datasets show that our approach significantly outperforms several state-of-the-art congestion anomaly detection and diagnosis methods in terms of Recall and F1-Score. We also use the generative model to sample labeled data, which can train classifiers in a supervised setting, alleviating the lack of labeled data for anomaly detection in sparse settings.},
+  doi       = {10.1109/ITSC55140.2022.9922061}
 }
 
 
+@misc{sophiefairtransit2022arxiv,
+  doi       = {10.48550/ARXIV.2212.12007},
+  url       = {https://arxiv.org/abs/2212.12007},
+  author    = {Pavia, Sophie and Mori, J. Carlos Martinez and Sharma, Aryaman and Pugliese, Philip and Dubey, Abhishek and Samaranayake, Samitha and Mukhopadhyay, Ayan},
+  keywords  = {Computers and Society (cs.CY), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {Designing Equitable Transit Networks},
+  publisher = {arXiv},
+  abstract  = {Public transit is an essential infrastructure enabling access to employment, healthcare, education, and recreational facilities. While accessibility to transit is important in general, some sections of the population depend critically on transit. However, existing public transit is often not designed equitably, and often, equity is only considered as an additional objective post hoc, which hampers systemic changes. We present a formulation for transit network design that considers different notions of equity and welfare explicitly. We study the interaction between network design and various concepts of equity and present trade-offs and results based on real-world data from a large metropolitan area in the United States of America.
+               },
+  year      = {2022},
+  preprint  = {https://arxiv.org/abs/2212.12007},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
 @article{wilbur2022_trr,
-
-author = {Wilbur, Michael and Ayman,Afiya and Sivagnanam, Amutheezan and Ouyang, Anna and Poon, Vincent and Kabir, Riyan and Vadali, Abhiram and Pugliese, Philip and Freudberg, Daniel and Laszka, Aron and Dubey, Abhishek},
-
-title ={Impact of COVID-19 on Public Transit Accessibility and Ridership},
-
-journal = {Transportation Research Record},
-
-year = {2022},
-
-doi = {},
-
-abstract = {The novel coronavirus COVID-19 has radically transformed travel behavior in urban areas throughout the world. Foremost, agencies must determine how to provide adequate service while navigating a rapidly changing environment with reduced revenues. Even as COVID-19 related restrictions are lifted, transit agencies are increasingly concerned with their ability to adapt to fundamental changes in ridership behavior and public transit usage. To aid transit agencies in becoming more adaptive to sudden or persistent shifts in ridership patterns, we aim to address three questions. First, to what degree has the COVID-19 pandemic affected ridership of fixed-line public transit and what is the relationship between reduced demand and reduced vehicle trips? Second, how has COVID-19 changed ridership patterns and are these changes expected to persist after restrictions are lifted? Lastly, are there disparities in ridership changes across socio-economic groups and the mobility impaired? We focus on Nashville and Chattanooga, TN where we compare ridership demand and reduced vehicle trips imposed by the two cities. These patterns are compared to anonymized mobile location data to study the relationship between mobility patterns and transit usage. Additionally, we provide a correlation analysis and explanatory multiple variable linear model to investigate the relationship between socio-economic indicators and changes in transit ridership. Lastly, we include an analysis of changes in paratransit demand before and during COVID-19. We find that ridership initially dropped by 66% and 65% over the first month of the pandemic for Nashville and Chattanooga respectively before starting a moderate recovery. Additionally, cellular mobility patterns in Chattanooga indicate that foot traffic recovered to a greater degree between mid-April, 2020 and the last week in June, 2020 than transit ridership. Our models show that education level had a statistically significant impact on change in fixed-line bus transit. Lastly, we found that the distribution of changes in demand for paratransit services are similar to to our findings from fixed-line bus transit.}
-
+  author   = {Wilbur, Michael and Ayman,Afiya and Sivagnanam, Amutheezan and Ouyang, Anna and Poon, Vincent and Kabir, Riyan and Vadali, Abhiram and Pugliese, Philip and Freudberg, Daniel and Laszka, Aron and Dubey, Abhishek},
+  title    = {Impact of COVID-19 on Public Transit Accessibility and Ridership},
+  journal  = {Transportation Research Record},
+  year     = {2022},
+  doi      = {},
+  abstract = {The novel coronavirus COVID-19 has radically transformed travel behavior in urban areas throughout the world. Foremost, agencies must determine how to provide adequate service while navigating a rapidly changing environment with reduced revenues. Even as COVID-19 related restrictions are lifted, transit agencies are increasingly concerned with their ability to adapt to fundamental changes in ridership behavior and public transit usage. To aid transit agencies in becoming more adaptive to sudden or persistent shifts in ridership patterns, we aim to address three questions. First, to what degree has the COVID-19 pandemic affected ridership of fixed-line public transit and what is the relationship between reduced demand and reduced vehicle trips? Second, how has COVID-19 changed ridership patterns and are these changes expected to persist after restrictions are lifted? Lastly, are there disparities in ridership changes across socio-economic groups and the mobility impaired? We focus on Nashville and Chattanooga, TN where we compare ridership demand and reduced vehicle trips imposed by the two cities. These patterns are compared to anonymized mobile location data to study the relationship between mobility patterns and transit usage. Additionally, we provide a correlation analysis and explanatory multiple variable linear model to investigate the relationship between socio-economic indicators and changes in transit ridership. Lastly, we include an analysis of changes in paratransit demand before and during COVID-19. We find that ridership initially dropped by 66% and 65% over the first month of the pandemic for Nashville and Chattanooga respectively before starting a moderate recovery. Additionally, cellular mobility patterns in Chattanooga indicate that foot traffic recovered to a greater degree between mid-April, 2020 and the last week in June, 2020 than transit ridership. Our models show that education level had a statistically significant impact on change in fixed-line bus transit. Lastly, we found that the distribution of changes in demand for paratransit services are similar to to our findings from fixed-line bus transit.}
 }
 
 @article{btesim2022,
-author = {Sen, Rishav and Tran, Toan and Khaleghian, Seyedmehdi and Sartipi, Mina and Neema, Himanshu and Dubey, Abhishek},
-title = {BTE-Sim: Fast simulation environment for public transportation},
-year = {2022},
-isbn = {},
-publisher = {IEEE},
-address = {},
-url = {},
-booktitle = {2022 IEEE International Conference on Big Data},
-pages = {},
-numpages = {8},
-keywords = {public transit, fast traffic simulation, model integration, data processing, road speed calibration},
-location = {},
-series = {}
+  author    = {Sen, Rishav and Tran, Toan and Khaleghian, Seyedmehdi and Sartipi, Mina and Neema, Himanshu and Dubey, Abhishek},
+  title     = {BTE-Sim: Fast simulation environment for public transportation},
+  year      = {2022},
+  isbn      = {},
+  publisher = {IEEE},
+  address   = {},
+  url       = {},
+  booktitle = {2022 IEEE International Conference on Big Data},
+  pages     = {},
+  numpages  = {8},
+  keywords  = {public transit, fast traffic simulation, model integration, data processing, road speed calibration},
+  location  = {},
+  series    = {}
 }
 
 @misc{talusan2022apc,
-  doi = {10.48550/ARXIV.2210.04989},
-  url = {https://arxiv.org/abs/2210.04989},
-  author = {Talusan, Jose Paolo and Mukhopadhyay, Ayan and Freudberg, Dan and Dubey, Abhishek},
-  keywords = {Machine Learning (cs.LG), Computers and Society (cs.CY), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {On Designing Day Ahead and Same Day Ridership Level Prediction Models for City-Scale Transit Networks Using Noisy APC Data},
+  doi       = {10.48550/ARXIV.2210.04989},
+  url       = {https://arxiv.org/abs/2210.04989},
+  author    = {Talusan, Jose Paolo and Mukhopadhyay, Ayan and Freudberg, Dan and Dubey, Abhishek},
+  keywords  = {Machine Learning (cs.LG), Computers and Society (cs.CY), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {On Designing Day Ahead and Same Day Ridership Level Prediction Models for City-Scale Transit Networks Using Noisy APC Data},
   publisher = {arXiv},
-  year = {2022},
+  year      = {2022},
   copyright = {arXiv.org perpetual, non-exclusive license}
 }
 
@@ -66,30 +96,23 @@ series = {}
   booktitle = {Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
   year      = {2021},
   abstract  = {Public transit agencies are focused on making their fixed-line bus systems more energy efficient by introducing electric (EV) and hybrid (HV) vehicles to their 
-eets. However, because of the high upfront cost of these vehicles, most agencies are tasked with managing a mixed-fleet of internal combustion vehicles (ICEVs), EVs, and HVs. In managing mixed-fleets, agencies require accurate predictions of energy use for optimizing the assignment of vehicles to transit routes, scheduling charging, and ensuring that emission standards are met. The current state-of-the-art is to develop separate neural network models to predict energy consumption for each vehicle class. Although different vehicle classes' energy consumption depends on a varied set of covariates, we hypothesize that there are broader generalizable patterns that govern energy consumption and emissions. In this paper, we seek to extract these patterns to aid learning to address two problems faced by transit agencies. First, in the case of a transit agency which operates many ICEVs, HVs, and EVs, we use multi-task learning (MTL) to improve accuracy of forecasting energy consumption. Second, in the case where there is a significant variation in vehicles in each category, we use inductive transfer learning (ITL) to improve predictive accuracy for vehicle class models with insufficient data. As this work is to be deployed by our partner agency, we also provide an online pipeline for joining the various sensor streams for xed-line transit energy prediction. We find that our approach outperforms vehicle-specific baselines in both the MTL and ITL settings.}
+               eets. However, because of the high upfront cost of these vehicles, most agencies are tasked with managing a mixed-fleet of internal combustion vehicles (ICEVs), EVs, and HVs. In managing mixed-fleets, agencies require accurate predictions of energy use for optimizing the assignment of vehicles to transit routes, scheduling charging, and ensuring that emission standards are met. The current state-of-the-art is to develop separate neural network models to predict energy consumption for each vehicle class. Although different vehicle classes' energy consumption depends on a varied set of covariates, we hypothesize that there are broader generalizable patterns that govern energy consumption and emissions. In this paper, we seek to extract these patterns to aid learning to address two problems faced by transit agencies. First, in the case of a transit agency which operates many ICEVs, HVs, and EVs, we use multi-task learning (MTL) to improve accuracy of forecasting energy consumption. Second, in the case where there is a significant variation in vehicles in each category, we use inductive transfer learning (ITL) to improve predictive accuracy for vehicle class models with insufficient data. As this work is to be deployed by our partner agency, we also provide an online pipeline for joining the various sensor streams for xed-line transit energy prediction. We find that our approach outperforms vehicle-specific baselines in both the MTL and ITL settings.}
 }
 @inproceedings{sivagnanam2022offline,
-  author={Amutheezan Sivagnanam and Salah Uddin Kadir and Ayan Mukhopadhyay and Philip Pugliese and Abhishek Dubey and Samitha Samaranayake and Aron Laszka},
-  title={Offline Vehicle Routing Problem with Online Bookings: A Novel Problem Formulation with Applications to Paratransit},
-  booktitle={31st International Joint Conference on Artificial Intelligence (IJCAI)},
-  year={2022},
-  month={July},
+  author    = {Amutheezan Sivagnanam and Salah Uddin Kadir and Ayan Mukhopadhyay and Philip Pugliese and Abhishek Dubey and Samitha Samaranayake and Aron Laszka},
+  title     = {Offline Vehicle Routing Problem with Online Bookings: A Novel Problem Formulation with Applications to Paratransit},
+  booktitle = {31st International Joint Conference on Artificial Intelligence (IJCAI)},
+  year      = {2022},
+  month     = {July}
 }
 
-@inproceedings{wilbur2022,
-  author={Michael Wilbur and Salah Uddin Kadir and Youngseo Kim and Geoffrey Pettet and Ayan Mukhopadhyay and Philip Pugliese and Samitha Samaranayake and Aron Laszka and Abhishek Dubey},
-  title={An Online Approach to Solve the Dynamic Vehicle Routing Problem with Stochastic Trip Requests for Paratransit Services},
-  booktitle={13th ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS)},
-  year={2022},
-  month={May},
-}
-
+ 
 @inproceedings{ayman2022neural,
-  author={Afiya Ayman and Juan Martinez and Philip Pugliese and Abhishek Dubey and Aron Laszka},
-  title={Neural Architecture and Feature Search for Predicting the Ridership of Public Transportation Routes},
-  booktitle={8th IEEE International Conference on Smart Computing (SMARTCOMP)},
-  year={2022},
-  month={June},
+  author    = {Afiya Ayman and Juan Martinez and Philip Pugliese and Abhishek Dubey and Aron Laszka},
+  title     = {Neural Architecture and Feature Search for Predicting the Ridership of Public Transportation Routes},
+  booktitle = {8th IEEE International Conference on Smart Computing (SMARTCOMP)},
+  year      = {2022},
+  month     = {June}
 }
 
 @article{yucheTRB21,
@@ -101,14 +124,14 @@ eets. However, because of the high upfront cost of these vehicles, most agencies
 }
 
 @article{perivier2021real,
-  title={Real-time Approximate Routing for Smart Transit Systems},
-  author={Banerjee, Siddhartha and Hssaine, Chamsi and P{\'e}rivier, No{\'e}mie and Samaranayake, Samitha},
-  journal={Proceedings of the ACM on Measurement and Analysis of Computing Systems},
-  volume={5},
-  number={2},
-  pages={1--30},
-  year={2021},
-  publisher={ACM New York, NY, USA}
+  title     = {Real-time Approximate Routing for Smart Transit Systems},
+  author    = {Banerjee, Siddhartha and Hssaine, Chamsi and P{\'e}rivier, No{\'e}mie and Samaranayake, Samitha},
+  journal   = {Proceedings of the ACM on Measurement and Analysis of Computing Systems},
+  volume    = {5},
+  number    = {2},
+  pages     = {1--30},
+  year      = {2021},
+  publisher = {ACM New York, NY, USA}
 }
 
 @inproceedings{rsuicfc2020,
@@ -155,29 +178,39 @@ eets. However, because of the high upfront cost of these vehicles, most agencies
   abstract = {Estimating fuel consumption by hybrid diesel buses is challenging due to its diversified operations and driving cycles. In this study, long-term transit bus monitoring data were utilized to empirically compare fuel consumption of diesel and hybrid buses under various driving conditions. Artificial neural network (ANN) based high-fidelity microscopic (1 Hz) and mesoscopic (5–60 min) fuel consumption models were developed for hybrid buses. The microscopic model contained 1 Hz driving, grade, and environment variables. The mesoscopic model aggregated 1 Hz data into 5 to 60-minute traffic pattern factors and predicted average fuel consumption over its duration. The prediction results show mean absolute percentage errors of 1–2\% for microscopic models and 5–8\% for mesoscopic models. The data were partitioned by different driving speeds, vehicle engine demand, and road grade to investigate their impacts on prediction performance.}
 }
 
+@inproceedings{ijcai22Ayan,
+  title     = {ADVISER: AI-Driven Vaccination Intervention Optimiser for Increasing Vaccine Uptake in Nigeria},
+  author    = {Nair, Vineet and Prakash, Kritika and Wilbur, Michael and Taneja, Aparna and Namblard, Corinne and Adeyemo, Oyindamola and Dubey, Abhishek and Adereni, Abiodun and Tambe, Milind and Mukhopadhyay, Ayan},
+  abstract  = {More than 5 million children under five years die from largely preventable or treatable medical conditions every year, with an overwhelmingly large proportion of deaths occurring in under-developed countries with low vaccination uptake. One of the United Nations' sustainable development goals (SDG 3) aims to end preventable deaths of newborns and children under five years of age. We focus on Nigeria, where the rate of infant mortality is appalling. We collaborate with HelpMum, a large non-profit organization in Nigeria to design and optimize the allocation of heterogeneous health interventions under uncertainty to increase vaccination uptake, the first such collaboration in Nigeria. Our framework, ADVISER: AI-Driven Vaccination Intervention Optimiser, is based on an integer linear program that seeks to maximize the cumulative probability of successful vaccination. Our optimization formulation is intractable in practice. We present a heuristic approach that enables us to solve the problem for real-world use-cases. We also present theoretical bounds for the heuristic method. Finally, we show that the proposed approach outperforms baseline methods in terms of vaccination uptake through experimental evaluation. HelpMum is currently planning a pilot program based on our approach to be deployed in the largest city of Nigeria, which would be the first deployment of an AIdriven vaccination uptake program in the country and hopefully, pave the way for other data-driven programs to improve health outcomes in Nigeria.},
+  doi       = {https://doi.org/10.48550/ARXIV.2204.13663},
+  url       = {https://arxiv.org/abs/2204.13663},
+  booktitle = {31st International Joint Conference on Artificial Intelligence (IJCAI)},
+  year      = {2022},
+  month     = jul
+}
  @inproceedings{wilbur2020decentralized,
   title        = {Time-dependent Decentralized Routing using Federated Learning},
   author       = {Wilbur, Michael and Samal, Chinmaya and Talusan, Jose Paolo and Yasumoto, Keiichi and Dubey, Abhishek},
   booktitle    = {2020 IEEE 23nd International Symposium on Real-Time Distributed Computing (ISORC)},
   year         = {2020},
   abstract     = {Recent advancements in cloud computing have
-driven rapid development in data-intensive smart city applications
-by providing near real time processing and storage
-scalability. This has resulted in efficient centralized route planning
-services such as Google Maps, upon which millions of
-users rely. Route planning algorithms have progressed in line
-with the cloud environments in which they run. Current state
-of the art solutions assume a shared memory model, hence
-deployment is limited to multiprocessing environments in data
-centers. By centralizing these services, latency has become the
-limiting parameter in the technologies of the future, such as
-autonomous cars. Additionally, these services require access
-to outside networks, raising availability concerns in disaster
-scenarios. Therefore, this paper provides a decentralized route
-planning approach for private fog networks. We leverage recent
-advances in federated learning to collaboratively learn shared
-prediction models online and investigate our approach with a
-simulated case study from a mid-size U.S. city.},
+                  driven rapid development in data-intensive smart city applications
+                  by providing near real time processing and storage
+                  scalability. This has resulted in efficient centralized route planning
+                  services such as Google Maps, upon which millions of
+                  users rely. Route planning algorithms have progressed in line
+                  with the cloud environments in which they run. Current state
+                  of the art solutions assume a shared memory model, hence
+                  deployment is limited to multiprocessing environments in data
+                  centers. By centralizing these services, latency has become the
+                  limiting parameter in the technologies of the future, such as
+                  autonomous cars. Additionally, these services require access
+                  to outside networks, raising availability concerns in disaster
+                  scenarios. Therefore, this paper provides a decentralized route
+                  planning approach for private fog networks. We leverage recent
+                  advances in federated learning to collaboratively learn shared
+                  prediction models online and investigate our approach with a
+                  simulated case study from a mid-size U.S. city.},
   organization = {IEEE}
 }
 @article{Sun2019,
@@ -274,42 +307,42 @@ simulated case study from a mid-size U.S. city.},
 
 @inproceedings{Lasz2006Data,
   author    = {Afiya Ayman and Michael Wilbur and Amutheezan Sivagnanam and Philip
-Pugliese and Abhishek Dubey and Aron Laszka},
+               Pugliese and Abhishek Dubey and Aron Laszka},
   title     = {{Data-Driven} Prediction of {Route-Level} Energy Use for {Mixed-Vehicle}
-Transit Fleets},
+               Transit Fleets},
   booktitle = {2020 IEEE International Conference on Smart Computing (SMARTCOMP)
-(SMARTCOMP 2020)},
+               (SMARTCOMP 2020)},
   address   = {Bologna, Italy},
   days      = 21,
   month     = jun,
   year      = 2020,
   keywords  = {data-driven prediction; electric vehicle; public transit; on-board
-diagnostics data; deep learning; traffic data},
+               diagnostics data; deep learning; traffic data},
   abstract  = {Due to increasing concerns about environmental impact, operating costs, and
-energy security, public transit agencies are seeking to reduce their fuel
-use by employing electric vehicles (EVs). However, because of the high
-upfront cost of EVs, most agencies can afford only mixed fleets of
-internal-combustion and electric vehicles. Making the best use of these
-mixed fleets presents a challenge for agencies since optimizing the
-assignment of vehicles to transit routes, scheduling charging, etc. require
-accurate predictions of electricity and fuel use. Recent advances in
-sensor-based technologies, data analytics, and machine learning enable
-remedying this situation; however, to the best of our knowledge, there
-exists no framework that would integrate all relevant data into a
-route-level prediction model for public transit. In this paper, we present
-a novel framework for the data-driven prediction of route-level energy use
-for mixed-vehicle transit fleets, which we evaluate using data collected
-from the bus fleet of CARTA, the public transit authority of Chattanooga,
-TN. We present a data collection and storage framework, which we use to
-capture system-level data, including traffic and weather conditions, and
-high-frequency vehicle-level data, including location traces, fuel or
-electricity use, etc. We present domain-specific methods and algorithms for
-integrating and cleansing data from various sources, including street and
-elevation maps. Finally, we train and evaluate machine learning models,
-including deep neural networks, decision trees, and linear regression, on
-our integrated dataset. Our results show that neural networks provide
-accurate estimates, while other models can help us discover relations
-between energy use and factors such as road and weather conditions.}
+               energy security, public transit agencies are seeking to reduce their fuel
+               use by employing electric vehicles (EVs). However, because of the high
+               upfront cost of EVs, most agencies can afford only mixed fleets of
+               internal-combustion and electric vehicles. Making the best use of these
+               mixed fleets presents a challenge for agencies since optimizing the
+               assignment of vehicles to transit routes, scheduling charging, etc. require
+               accurate predictions of electricity and fuel use. Recent advances in
+               sensor-based technologies, data analytics, and machine learning enable
+               remedying this situation; however, to the best of our knowledge, there
+               exists no framework that would integrate all relevant data into a
+               route-level prediction model for public transit. In this paper, we present
+               a novel framework for the data-driven prediction of route-level energy use
+               for mixed-vehicle transit fleets, which we evaluate using data collected
+               from the bus fleet of CARTA, the public transit authority of Chattanooga,
+               TN. We present a data collection and storage framework, which we use to
+               capture system-level data, including traffic and weather conditions, and
+               high-frequency vehicle-level data, including location traces, fuel or
+               electricity use, etc. We present domain-specific methods and algorithms for
+               integrating and cleansing data from various sources, including street and
+               elevation maps. Finally, we train and evaluate machine learning models,
+               including deep neural networks, decision trees, and linear regression, on
+               our integrated dataset. Our results show that neural networks provide
+               accurate estimates, while other models can help us discover relations
+               between energy use and factors such as road and weather conditions.}
 }
 
 @inproceedings{basak2019bigdata,
@@ -326,9 +359,9 @@ between energy use and factors such as road and weather conditions.}
 
 @inproceedings{pettetisgt2020,
   title        = {A Decision Support Framework for Grid-Aware Electric Bus Charge Scheduling
-},
+                  },
   author       = {Geoffrey Pettet and Malini Ghosal and Shant Mahserejian and Sarah Davis and Siddharth Sridhar and Abhishek Dubey and Michael Meyer
-},
+                  },
   booktitle    = {2020 IEEE Power \& Energy Society Innovative Smart Grid Technologies Conference (ISGT)},
   year         = {2020},
   abstract     = {While there are many advantages to electric public transit vehicles, they also pose new challenges for fleet operators. One key challenge is defining a charge scheduling policy that minimizes operating costs and power grid disruptions while maintaining schedule adherence. An uncoordinated policy could result in buses running out of charge before completing their trip, while a grid agnostic policy might incur higher energy costs or cause an adverse impact on the grid’s distribution system. We present a grid aware decision-theoretic framework for electric bus charge scheduling that accounts for energy price and grid load. The framework co-simulates models for traffic (Simulation of Urban Mobility) and the electric grid (GridLAB-D), which are used by a decision-theoretic planner to evaluate charging decisions with regard to their long-term effect on grid reliability and cost. We evaluated the framework on a simulation of Richland, WA’s bus and grid network, and found that it could save over $100k per year on operating costs for the city compared to greedy methods.},
@@ -337,15 +370,15 @@ between energy use and factors such as road and weather conditions.}
 
 
  @article{aymantoit2020,
-  author={Afiya Ayman and Amutheezan Sivagnanam and Michael Wilbur and Philip Pugliese and Abhishek Dubey and Aron Laszka},
-  title={Data-Driven Prediction and Optimization of Energy Use for Transit Fleets of Electric and ICE Vehicles},
-  journal={ACM Transactions on Internet Technology},
-  volume={22},
-  number={1},
-  pages={7:1--7:29},
-  year={2022},
+  author   = {Afiya Ayman and Amutheezan Sivagnanam and Michael Wilbur and Philip Pugliese and Abhishek Dubey and Aron Laszka},
+  title    = {Data-Driven Prediction and Optimization of Energy Use for Transit Fleets of Electric and ICE Vehicles},
+  journal  = {ACM Transactions on Internet Technology},
+  volume   = {22},
+  number   = {1},
+  pages    = {7:1--7:29},
+  year     = {2022},
   abstract = {Due to the high upfront cost of electric vehicles, many public transit agencies can afford only mixed fleets of internal combustion and electric vehicles. Optimizing the operation of such mixed fleets is challenging because it requires accurate trip-level predictions of electricity and fuel use as well as efficient algorithms for assigning vehicles to transit routes. We present a novel framework for the data-driven prediction of trip-level energy use for mixed-vehicle transit fleets and for the optimization of vehicle assignments, which we evaluate using data collected from the bus fleet of CARTA, the public transit agency of Chattanooga, TN. We first introduce a data collection, storage, and processing framework for system-level and high-frequency vehicle-level transit data, including domain-specific data cleansing methods. We train and evaluate machine learning models for energy prediction, demonstrating that deep neural networks attain the highest accuracy. Based on these predictions, we formulate the problem of minimizing energy use through assigning vehicles to fixed-route transit trips. We propose an optimal integer program as well as efficient heuristic and meta-heuristic algorithms, demonstrating the scalability and performance of these algorithms numerically using the transit network of CARTA.},
-  month={February},
+  month    = {February}
 }
 
 
@@ -372,12 +405,12 @@ between energy use and factors such as road and weather conditions.}
   author    = {Amutheezan Sivagnanam and Afiya Ayman and Michael Wilbur and Philip Pugliese and Abhishek Dubey and Aron Laszka },
   booktitle = {Proceedings of the 35th AAAI Conference on Artificial Intelligence (AAAI-21)},
   abstract  = {Affordable public transit services are crucial for communities since they enable residents to access employment, education, and other services. 
-Unfortunately, transit services that provide wide coverage tend to suffer from relatively low utilization, which results in high fuel usage per passenger per mile, leading to high operating costs and environmental impact.
-Electric vehicles (EVs) can reduce energy costs and environmental impact, but most public transit agencies have to employ them in combination with conventional, internal-combustion engine vehicles due to the high upfront costs of EVs. 
-To make the best use of such a mixed fleet of vehicles, transit agencies need to optimize route assignments and charging schedules, which presents a challenging problem for large transit networks. 
-We introduce a novel problem formulation to minimize fuel and electricity use by assigning vehicles to transit trips and scheduling them for charging, while serving an existing fixed-route transit schedule. 
-We present an integer program for optimal assignment and scheduling, and we propose polynomial-time heuristic and meta-heuristic algorithms for larger networks. We evaluate our algorithms on the public transit service of Chattanooga, TN using operational data collected from transit vehicles.  Our results show that the proposed algorithms are scalable and can reduce energy use and, hence, environmental impact and operational costs. 
-For Chattanooga, the proposed algorithms can save \$145,635 in energy costs and 576.7 metric tons of CO2 emission annually.},
+               Unfortunately, transit services that provide wide coverage tend to suffer from relatively low utilization, which results in high fuel usage per passenger per mile, leading to high operating costs and environmental impact.
+               Electric vehicles (EVs) can reduce energy costs and environmental impact, but most public transit agencies have to employ them in combination with conventional, internal-combustion engine vehicles due to the high upfront costs of EVs. 
+               To make the best use of such a mixed fleet of vehicles, transit agencies need to optimize route assignments and charging schedules, which presents a challenging problem for large transit networks. 
+               We introduce a novel problem formulation to minimize fuel and electricity use by assigning vehicles to transit trips and scheduling them for charging, while serving an existing fixed-route transit schedule. 
+               We present an integer program for optimal assignment and scheduling, and we propose polynomial-time heuristic and meta-heuristic algorithms for larger networks. We evaluate our algorithms on the public transit service of Chattanooga, TN using operational data collected from transit vehicles.  Our results show that the proposed algorithms are scalable and can reduce energy use and, hence, environmental impact and operational costs. 
+               For Chattanooga, the proposed algorithms can save \$145,635 in energy costs and 576.7 metric tons of CO2 emission annually.},
   year      = {2021}
 }
 
