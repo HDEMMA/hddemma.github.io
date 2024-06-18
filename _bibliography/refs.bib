@@ -1,5 +1,53 @@
 % Encoding: UTF-8
 
+@article{paviaIJCAI24AISG,
+	title        = {Deploying Mobility-On-Demand for All by Optimizing Paratransit Services},
+	author       = {Pavia, Sophie and Rogers, David and Sivagnanam, Amutheezan and Wilbur, Michael and Edirimanna, Danushka and Kim, Youngseo and Pugliese, Philip and Samaranayake, Samitha and Laszka, Aron and Mukhopadhyay, Ayan and Dubey, Abhishek},
+	year         = {2024},
+	journal      = {International Joint Conference on Artificial Intelligence (IJCAI)}
+}
+@article{paviaIJCAI24demo,
+	title        = {SmartTransit.AI: A Dynamic Paratransit and Microtransit Application},
+	author       = {Pavia, Sophie and Rogers, David and Sivagnanam, Amutheezan and Wilbur, Michael and Edirimanna, Danushka and Kim, Youngseo and Mukhopadhyay, Ayan and Pugliese, Philip and Samaranayake, Samitha and Laszka, Aron and Dubey, Abhishek},
+	year         = {2024},
+	journal      = {International Joint Conference on Artificial Intelligence (IJCAI)}
+}
+@inproceedings{samir2024smartcomp,
+	title        = {A Graph Neural Network Framework for Imbalanced Bus Ridership Forecasting},
+	author       = {Gupta, Samir and Agrima Khanna and Jose Paolo Talusan and Anwar Said and Dan Freudberg and Ayan Mukhopadhyay and Abhishek Dubey},
+	year         = {2024},
+	month        = 6,
+	booktitle    = {2024 IEEE International Conference on Smart Computing (SMARTCOMP)},
+	volume       = {},
+	number       = {},
+  abstract     = {Public transit systems are paramount in lowering carbon emissions and reducing urban congestion for environmental sustainability. However, overcrowding has adverse effects on the quality of service, passenger experience, and overall efficiency of public transit causing a decline in the usage of public transit systems. Therefore, it is crucial to identify and forecast potential windows of overcrowding to improve passenger experience and encourage higher ridership. Predicting ridership is a complex task, due to the inherent noise of collected data and the sparsity of overcrowding events. Existing studies in predicting public transit ridership consider only a static depiction of bus networks. We address these issues by first applying a data processing pipeline that cleans noisy data and engineers several features for training. Then, we address sparsity by converting the network to a dynamic graph and using a graph convolutional network, incorporating temporal, spatial, and auto-regressive features, to learn generalizable patterns for each route.  Finally, since conventional loss functions like categorical cross-entropy have limitations in addressing class imbalance inherent in ridership data, our proposed approach uses focal loss to refine the prediction focus on less frequent yet task-critical overcrowding instances. Our experiments, using real-world data from our partner agency, show that the proposed approach outperforms existing state-of-the-art baselines in terms of accuracy and robustness.}
+}
+@inproceedings{talusan2024ICCPS,
+	title        = {An Online Approach to Solving Public Transit Stationing and Dispatch Problem},
+	author       = {Talusan, Jose Paolo and Han, Chaeeun and Mukhopadhyay, Ayan and Laszka, Aron and Freudberg, Dan and Dubey, Abhishek},
+	year         = {2024},
+	booktitle    = {Proceedings of the ACM/IEEE 15th International Conference on Cyber-Physical Systems (ICCPS)},
+	location     = {Hong Kong, China},
+	publisher    = {Association for Computing Machinery},
+	address      = {New York, NY, USA},
+	series       = {ICCPS '24},
+	abstract     = {Public bus transit systems provide critical transportation services for large sections of modern communities. On-time performance and maintaining the reliable quality of service is therefore very important. Unfortunately, disruptions caused by overcrowding, vehicular failures, and road accidents often lead to service performance degradation. Though transit agencies keep a limited number of vehicles in reserve and dispatch them to relieve the affected routes during disruptions, the procedure is often ad-hoc and has to rely on human experience and intuition to allocate resources (vehicles) to affected trips under uncertainty. In this paper, we describe a principled approach using non-myopic sequential decision procedures to solve the problem and decide (a) if it is advantageous to anticipate problems and proactively station transit buses near areas with high-likelihood of disruptions and (b) decide if and which vehicle to dispatch to a particular problem. Our approach was developed in partnership with the Metropolitan Transportation Authority for a mid-sized city in the USA and models the system as a semi-Markov decision problem (solved as a Monte-Carlo tree search procedure) and shows that it is possible to obtain an answer to these two coupled decision problems in a way that maximizes the overall reward (number of people served). We sample many possible futures from generative models, each is assigned to a tree and processed using root parallelization. We validate our approach using 3 years of data from our partner agency. Our experiments show that the proposed framework serves 2% more passengers while reducing deadhead miles by 40%.},
+	numpages     = 10
+}
+
+@inproceedings{talusan2024AAMAS,
+	title        = {Forecasting and Mitigating Disruptions in Public Bus Transit Services},
+	author       = {Han, Chaeeun and Talusan, Jose Paolo and Freudberg, Dan and Mukhopadhyay, Ayan and Dubey, Abhishek and Laszka, Aron},
+	year         = {2024},
+	booktitle    = {Proceedings of the 23rd Conference on Autonomous Agents and MultiAgent Systems, {AAMAS} 2024, Auckland, New Zealand},
+	location     = {Auckland, New Zealand},
+	publisher    = {International Foundation for Autonomous Agents and Multiagent Systems},
+	address      = {Richland, SC},
+	series       = {AAMAS '24},
+	abstract     = {Public transportation systems often suffer from unexpected fluctuations in demand and disruptions, such as mechanical failures and medical emergencies. These fluctuations and disruptions lead to delays and overcrowding, which are detrimental to the passengers' experience and to the overall performance of the transit service. To proactively mitigate such events, many transit agencies station substitute (reserve) vehicles throughout their service areas, which they can dispatch to augment or replace vehicles on routes that suffer overcrowding or disruption. However, determining the optimal locations where substitute vehicles should be stationed is a challenging problem due to the inherent randomness of disruptions and due to the combinatorial nature of selecting locations across a city. In collaboration with the transit agency of a mid-size U.S. city, we address this problem by introducing data-driven statistical and machine-learning models for forecasting disruptions and an effective randomized local-search algorithm for selecting locations where substitute vehicles are to be stationed. Our research demonstrates promising results in proactive disruption management, offering a practical and easily implementable solution for transit agencies to enhance the reliability of their services. Our results resonate beyond mere operational efficiency---by advancing proactive strategies, our approach fosters more resilient and accessible public transportation, contributing to equitable urban mobility and ultimately benefiting the communities that rely on public transportation the most.},
+	numpages     = 9,
+	keywords     = {Public transportation, Data-driven optimization, Disruption forecasting, Simulation, Metaheuristic optimization}
+}
 
 @article{shadi2024TRB,
 	title     = {Beyond spatial proximity: Understanding segregation and job accessibility among the racial and low-income population in Chattanooga city.},
