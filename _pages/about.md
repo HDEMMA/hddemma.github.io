@@ -105,8 +105,11 @@ redirect_from:
       </div>
        </div>
      <div class="col-xl-12 col-lg-12 col-sm-12 d-flex align-items-stretch">
-     We are a multidisciplinary research team comprising of computer scientists, civil engineers, social scientists, urban planners, and public transportation experts dedicated to designing innovative solutions for enhancing public transportation operations. Our focus is on improving availability, reliability, effectiveness, and efficiency. Funded through federal grants and in collaboration with partner agencies such as the Chattanooga Area Regional Transportation Authority (CARTA) and Nashville WeGo, we employ cutting-edge AI approaches to address integrated multi-modal logistics challenges at scale, incorporating both same-day and long-term future trends. A key aspect of our work is the design of models for real-time energy consumption of mixed-vehicle fleets, including electric, hybrid, and diesel vehicles. These models enable us to predict and optimize operations to reduce overall energy impact while maintaining system-wide capacity.
-        
+     {% for node in site.info %}
+          {{ node.content| markdownify }}
+     {% endfor %}
+     <!-- We are a multidisciplinary research team comprising of computer scientists, civil engineers, social scientists, urban planners, and public transportation experts dedicated to designing innovative solutions for enhancing public transportation operations. Our focus is on improving availability, reliability, effectiveness, and efficiency. Funded through federal grants and in collaboration with partner agencies such as the Chattanooga Area Regional Transportation Authority (CARTA) and Nashville WeGo, we employ cutting-edge AI approaches to address integrated multi-modal logistics challenges at scale, incorporating both same-day and long-term future trends. A key aspect of our work is the design of models for real-time energy consumption of mixed-vehicle fleets, including electric, hybrid, and diesel vehicles. These models enable us to predict and optimize operations to reduce overall energy impact while maintaining system-wide capacity.
+         -->
         
         <!-- that collaborates with Chattanooga Area Regional Transportation Authority (CARTA) and Nashville WeGo to design
             efficient transit operation algorithms by using artificial intelligence and
@@ -299,7 +302,7 @@ Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Founda
   </section>
 
   <!-- About -->
-  <section class="content-section bg-light text-center" id="team">
+<!-- <section class="content-section bg-light text-center" id="team">
     <div class="content-section-heading text-center">
       <h2 class="mdc-typography--headline2 text-center m-0 p-0">Partners</h2>
     </div>
@@ -323,9 +326,7 @@ Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Founda
         </div>
       </div>
     </div>
-    <!-- <div class="text-center">    
-          <a class="btn btn-dark  js-scroll-trigger" href="#research">Research Areas</a></div> -->
-  </section>
+ </section> -->
 
 <!-- Portfolio -->
 <!-- {% assign sortedactivities = site.activities | sort: 'sequence' %}
