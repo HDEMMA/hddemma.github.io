@@ -131,22 +131,8 @@ redirect_from:
     <div class="content-section-heading text-center">
    <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">R&D Spotlights</h2>
     </div>
- <div class="container-fluid bg-light mt-4">
-     <div class="row p-1 m-1">
-     <div class="col-12">
-     <h2 class="mdc-typography--headline2 text-center m-2">MicroTransit and ParaTransit Operations Software</h2>
-     </div>
-    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">    
-     <div class="embed-responsive embed-responsive-16by9">
-     <iframe class="embed-responsive-item" src=" https://www.youtube.com/embed/lF8r0JzHiQc"></iframe></div>    
-    </div>
-    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
-    {{ "The SmartTransit operations system is a modular on-demand public transportation routing system designed to enhance microtransit and paratransit services. It  integrates advanced vehicle routing algorithms into the daily operations of transit agencies, addressing the challenges posed by varying objectives and constraints. This system includes management software for dispatchers and mobile applications for drivers and users. The software has been validated and demonstrated in a southern USA city, in separate microtransit and paratransit pilots, showing significant improvements in operational efficiency, energy efficiency, and cost-effectiveness in both cases. Here are the key publications describing the vehicle routing algorithms related to this work - [Offline Routing With Negotiations @IJCAI 2022](files/sivagnanam2022offline.pdf), [Non-Myopic Online Routing @ICCPS 2022](files/wilbur2022.pdf) [Offline Scalable Routing With Rolling Horizons @AAAI 2023](files/youngseo2023.pdf)" | markdownify  }}
-    </div>
-    </div>
-    </div>
 
- <div class="container-fluid mt-4">
+<div class="container-fluid mt-4">
      <div class="row p-1 m-1">
      <div class="col-12">
      <h2 class="mdc-typography--headline2 text-center m-2">Microtransit and Paratransit Pilot Operations</h2>
@@ -166,6 +152,23 @@ The insights gained from this pilot will be instrumental in refining and expandi
 </div>
 </div>
 
+ <div class="container-fluid bg-light mt-4">
+     <div class="row p-1 m-1">
+     <div class="col-12">
+     <h2 class="mdc-typography--headline2 text-center m-2">MicroTransit and ParaTransit Operations Software</h2>
+     </div>
+    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">    
+     <div class="embed-responsive embed-responsive-16by9">
+     <iframe class="embed-responsive-item" src=" https://www.youtube.com/embed/lF8r0JzHiQc"></iframe></div>    
+    </div>
+    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
+    {{ "The SmartTransit operations system is a modular on-demand public transportation routing system designed to enhance microtransit and paratransit services. It  integrates advanced vehicle routing algorithms into the daily operations of transit agencies, addressing the challenges posed by varying objectives and constraints. This system includes management software for dispatchers and mobile applications for drivers and users. The software has been validated and demonstrated in a southern USA city, in separate microtransit and paratransit pilots, showing significant improvements in operational efficiency, energy efficiency, and cost-effectiveness in both cases. Here are the key publications describing the vehicle routing algorithms related to this work - [Offline Routing With Negotiations @IJCAI 2022](files/sivagnanam2022offline.pdf), [Non-Myopic Online Routing @ICCPS 2022](files/wilbur2022.pdf) [Offline Scalable Routing With Rolling Horizons @AAAI 2023](files/youngseo2023.pdf)" | markdownify  }}
+    </div>
+    </div>
+    </div>
+
+ 
+
 <div class="container-fluid bg-light mt-4">
      <div class="row p-1 m-1">
      <div class="col-12">
@@ -180,7 +183,6 @@ The insights gained from this pilot will be instrumental in refining and expandi
     </div>
     </div>
     </div>
-
 </section>
 
 
