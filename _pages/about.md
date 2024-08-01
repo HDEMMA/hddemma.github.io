@@ -105,23 +105,13 @@ redirect_from:
       </div>
        </div>
      <div class="col-xl-12 col-lg-12 col-sm-12 d-flex align-items-stretch">
-     {% for node in site.info %}
-          {{ node.content| markdownify }}
-     {% endfor %}
-     <!-- We are a multidisciplinary research team comprising of computer scientists, civil engineers, social scientists, urban planners, and public transportation experts dedicated to designing innovative solutions for enhancing public transportation operations. Our focus is on improving availability, reliability, effectiveness, and efficiency. Funded through federal grants and in collaboration with partner agencies such as the Chattanooga Area Regional Transportation Authority (CARTA) and Nashville WeGo, we employ cutting-edge AI approaches to address integrated multi-modal logistics challenges at scale, incorporating both same-day and long-term future trends. A key aspect of our work is the design of models for real-time energy consumption of mixed-vehicle fleets, including electric, hybrid, and diesel vehicles. These models enable us to predict and optimize operations to reduce overall energy impact while maintaining system-wide capacity.
-         -->
-        
-        <!-- that collaborates with Chattanooga Area Regional Transportation Authority (CARTA) and Nashville WeGo to design
-            efficient transit operation algorithms by using artificial intelligence and
-            real-time data analysis at scale. This includes reinforcement
-            learning, Monte-Carlo tree search, and operations-research based
-            optimization for system-wide integrated scheduling and dispatch of
-            transit operations. As part of this work, we are also developing
-            models to estimate the load factors and real-time energy consumption
-            of mixed-vehicle transit fleets and use those models to predict and
-            optimize operations in order to lower overall energy impact while
-            ensuring that system-wide capacity remains unaffected. -->
-      </div></div>
+     We are a multidisciplinary research team comprising of computer scientists, civil engineers, social scientists, urban planners, and public transportation experts dedicated to designing innovative solutions for enhancing public transportation operations. Our focus is on improving availability, reliability, effectiveness, and efficiency. Funded through federal grants and in collaboration with partner agencies such as the Chattanooga Area Regional Transportation Authority (CARTA) and Nashville WeGo, we employ cutting-edge AI approaches to address integrated multi-modal logistics challenges at scale, incorporating both same-day and long-term future trends. A key aspect of our work is the design of models for real-time energy consumption of mixed-vehicle fleets, including electric, hybrid, and diesel vehicles. These models enable us to predict and optimize operations to reduce overall energy impact while maintaining system-wide capacity.
+    </div>
+
+    <div class="col-xl-12 col-lg-12 col-sm-12 d-flex align-items-stretch">
+     {{ "The team includes members from the [Institute of Software Integrated Systems](https://www.isis.vanderbilt.edu/) at [Vanderbilt University](https://engineering.vanderbilt.edu/bio/abhishek-dubey), [Cornell University](https://cee.cornell.edu/samitha/), [Pennsylvania State University](http://aronlaszka.com/), [University of Washington](https://faculty.washington.edu/ratliffl/), [University of Tennessee at Chattanooga](https://new.utc.edu/research/center-urban-informatics-and-progress), [University of South Carolina](https://www.sc.edu/study/colleges_schools/engineering_and_computing/faculty-staff/yuchechen.php), [Chattanooga Area Regional Transit Authority](https://www.provagroup.net/contact/) and [Siemens Corporate Technology](https://new.siemens.com/us/en/company/siemens-in-the-usa/princeton.html). This team consists of people with complementary backgrounds in transit operations, transit optimization, simulations, cyber-physical system, distributed system and software design and artificial intelligence. They have extensive prior experience in building transit and congestion performance indicators using machine-learning models that incorporate exogenous factors, such as weather, traffic, and public events. The [research efforts](https://www.us-ignite.org/apps/uszb33mfglsnyiz6mxdw6r/) that led to these projects were motivated by the [White House's smart cities initiative](https://obamawhitehouse.archives.gov/the-press-office/2015/09/14/fact-sheet-administration-announces-new-smart-cities-initiative-help) and the first [Global Cities Team Challenge](https://pages.nist.gov/GCTC/). The project was started by a collaboration between the  [Smart and Resilient Computing for Physical Environments Lab (SCOPE)](https://scopelab.ai),  [WeGo Nashville](https://m.nashvillemta.org/nashville-mta-mobile-homepage.asp) and [Chattanooga Area Regional Transit Authority](https://www.gocarta.org/alt-flash/insidecarta.php). The funding for the investigative works performed by this alliance has been provided by National Science Foundation, Department of Energy and Federal Transit Authority." | markdownify }}
+    </div>
+      </div>
        </div>
   </section>
 
@@ -301,32 +291,6 @@ Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Founda
     </div>
   </section>
 
-  <!-- About -->
-<!-- <section class="content-section bg-light text-center" id="team">
-    <div class="content-section-heading text-center">
-      <h2 class="mdc-typography--headline2 text-center m-0 p-0">Partners</h2>
-    </div>
-    <div class="container-fluid p-0 m-0 mx-auto">
-      <div class="row p-1 m-1">
-        <div class="col-lg-4 col-xl-3 p-0 ml-3 my-auto mx-auto">
-            <a href="https://www.isis.vanderbilt.edu/"><img class="m-0 p-0 d-inline-flex" width="30%" src="img/logos/isis.png" alt="isis vu image"> </a>    
-          <a href="https://www.vanderbilt.edu/"><img class="m-0 p-0 mr-2 d-inline-flex" width="30%" src="img/logos/vu.jpg" alt="vu image">    </a>  
-          <a href="https://www.uh.edu/"><img class="m-0 p-0  mr-2 d-inline-flex" width="30%" src="img/logos/uh.png" alt="uh image">  </a>    
-            <a href="https://www.pnnl.gov/"> <img class="m-0 p-0  mr-2 d-inline-flex" width="25%" src="img/logos/pnnl.png" alt="pnnl image">  </a> 
-          <a href="https://www.cornell.edu/"><img class="m-0 p-0 mr-2 d-inline-flex" width="30%" src="img/logos/cornell.gif" alt="cornell image">  </a>    
-         <a href="https://www.washington.edu/about/?utm_source=whitebar&utm_medium=click&utm_campaign=campuses&utm_term=seattle"> <img class="m-0 p-0  mr-2 d-inline-flex " width="30%" src="img/logos/uw.png" alt="uw image">   </a>   
-          <a href="https://www.utc.edu/"><img class="m-0 p-0  mr-2 d-inline-flex " width="20%" src="img/logos/utc.png" alt="utc image">   </a> 
-         <a href="https://new.siemens.com/us/en/company/siemens-in-the-usa/princeton.html"> <img class="m-0 p-0  mr-2 d-inline-flex" width="25%" src="img/logos/siemens.jpg" alt="siemens image">    </a>     
-           <a href="http://www.carta-bus.org/">   <img class="m-0 p-0 mr-2 d-inline-flex" width="30%" src="img/logos/carta.jpeg" alt="carta image">  </a> 
-        </div>
-        <div class="col-lg-7 col-xl-8 p-0 m-0 mx-auto text-card-justify">
-          {% for node in site.info %}
-          {{ node.content| markdownify }}
-          {% endfor %}
-        </div>
-      </div>
-    </div>
- </section> -->
 
 <!-- Portfolio -->
 <!-- {% assign sortedactivities = site.activities | sort: 'sequence' %}
