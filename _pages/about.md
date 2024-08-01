@@ -61,7 +61,7 @@ redirect_from:
     </div> -->
     <div class="container-fluid ">
      <div class="row">
-       <div class="col-xl-6  col-lg-12 col-sm-12 d-flex align-items-stretch">
+       <div class="col-xl-12  col-lg-12 col-sm-12 d-flex align-items-stretch">
        <div class="row">
       <div class="col-lg-12 col-xl-11 col-sm-12 mx-auto">
         <div id="carouselData" class="carousel slide carousel-fade"
@@ -104,7 +104,7 @@ redirect_from:
         </div>
       </div>
        </div>
-     <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
+     <div class="col-xl-12 col-lg-12 col-sm-12 d-flex align-items-stretch">
      We are a multidisciplinary research team comprising of computer scientists, civil engineers, social scientists, urban planners, and public transportation experts dedicated to designing innovative solutions for enhancing public transportation operations. Our focus is on improving availability, reliability, effectiveness, and efficiency. Funded through federal grants and in collaboration with partner agencies such as the Chattanooga Area Regional Transportation Authority (CARTA) and Nashville WeGo, we employ cutting-edge AI approaches to address integrated multi-modal logistics challenges at scale, incorporating both same-day and long-term future trends. A key aspect of our work is the design of models for real-time energy consumption of mixed-vehicle fleets, including electric, hybrid, and diesel vehicles. These models enable us to predict and optimize operations to reduce overall energy impact while maintaining system-wide capacity.
         
         
@@ -131,7 +131,7 @@ redirect_from:
     <div class="content-section-heading text-center">
    <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">R&D Spotlights</h2>
     </div>
- <div class="container-fluid bg-light">
+ <div class="container-fluid bg-light mt-4">
      <div class="row p-1 m-1">
      <div class="col-12">
      <h2 class="mdc-typography--headline2 text-center m-2">MicroTransit and ParaTransit Operations Software</h2>
