@@ -239,10 +239,15 @@ redirect_from:
      <h2 class="mdc-typography--headline2 text-center m-2">Microtransit and Paratransit Pilot Operations</h2>
      </div>
     <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">    
-    <video class="embed-responsive-item" width="100%"   controls="controls" muted="muted">
+    <!-- <video class="embed-responsive-item" width="100%"   controls="controls" muted="muted">
         <source src="img/SmartTransit.mp4" type="video/mp4">
         Your browser does not support the video tag.
-      </video>
+      </video> -->
+
+     <div class="embed-responsive embed-responsive-16by9">
+     <iframe class="embed-responsive-item" src="https://vanderbilt365-my.sharepoint.com/personal/abhishek_dubey_vanderbilt_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fabhishek%5Fdubey%5Fvanderbilt%5Fedu%2FDocuments%2FSmarttransit%20%5Ffinal%20cut%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eaa301cfb%2Dfd40%2D4616%2Db638%2D179a7b09c198"></iframe></div>
+        
+
     </div>
     <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
     {{ "The SmartTransit operations system was recently tested in the Clifton Hills area of Chattanooga. The pilot  was conducted over a span of 27 service days between June and July 2024. On these service days, a vehicle, driver, and booking agent were deployed between 9 am and 3 pm. 
