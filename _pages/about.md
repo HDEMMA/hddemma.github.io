@@ -162,14 +162,11 @@ redirect_from:
     <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
     {{ "The SmartTransit operations system was recently tested in the Clifton Hills area of Chattanooga. The pilot  was conducted over a span of 27 service days between June and July 2024. On these service days, a vehicle, driver, and booking agent were deployed between 9 am and 3 pm. 
 The insights gained from this pilot will be instrumental in refining and expanding microtransit services to better serve the community. Our long-term vision is to provide on-demand microtransit services that act as feeders for high-capacity, fixed-route transit services. Implementing this vision will enable agencies  to provide energy-efficient and equitable transit access in areas with low population density, which are often underserved by existing transit solutions, by combining the energy efficiency of high-capacity transit with the flexibility of microtransit. The  Clifton Hills microtransit pilot served to demonstrate and evaluate our novel technology solutions for on-demand transit. Previously our team tested the system for the CARTA paratransit operations and saw major improvements. Here are the key publications describing the deployment and pilot operations - [IJCAI 2024 Demo](files/paviaIJCAI24demo.pdf), [Paratransit Pilot](files/paviaIJCAI24AISG.pdf)" | markdownify}}
+</div>
+</div>
+</div>
 
-    
-    
-    </div>
-    </div>
-    </div>
-
-     <div class="container-fluid bg-light mt-4">
+<div class="container-fluid bg-light mt-4">
      <div class="row p-1 m-1">
      <div class="col-12">
      <h2 class="mdc-typography--headline2 text-center m-2">Fixed Line Operations with WeGo</h2>
