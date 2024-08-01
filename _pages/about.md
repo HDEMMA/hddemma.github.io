@@ -327,8 +327,8 @@ Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Founda
           <a class="btn btn-dark  js-scroll-trigger" href="#research">Research Areas</a></div> -->
   </section>
 
-  <!-- Portfolio -->
-  <!-- {% assign sortedactivities = site.activities | sort: 'sequence' %}
+<!-- Portfolio -->
+<!-- {% assign sortedactivities = site.activities | sort: 'sequence' %}
   <section class="content-section " id="activities">
     <div class="container-fluid">
       <div class="content-section-heading text-center">
@@ -389,8 +389,8 @@ Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Founda
 
 
   <!-- Map -->
-  <div id="contact" class="map">
+<!-- <div id="contact" class="map">
     <iframe
       src="https://www.google.com/maps/d/embed?mid=1ZnAR4JdHNF5K3rW9cICXqBGuvwmchIy9&hl=en"
       width="100vw"></iframe>
-  </div>
+</div> -->
