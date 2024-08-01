@@ -177,8 +177,7 @@ The insights gained from this pilot will be instrumental in refining and expandi
     <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">    
      <div class="embed-responsive embed-responsive-16by9">
      <iframe class="embed-responsive-item" src=" https://www.youtube.com/embed/fbpID2Y5Aao"></iframe></div>
-    </div>
-    </div>
+    </div>    
     <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
     {{ "Public transit systems provide critical services for large sections of modern communities. Thus, on-time performance and reliable quality of service is important in maintaining ridership. However, disruptions in the form of overcrowding, vehicular failure, and accidents often lead to a degradation in service performance. Current approaches rely heavily on domain expertise by transit agency operators, often resulting in static dispatch locations. We develop AI systems aimed at improving public transit operations by optimizing the stationing and dispatch of substitute buses via data driven models. We also developed Vectura, a dashboard for Nashville's public transportation network. This provides visualization tools to supplement transit operators by providing an information-rich portal for monitoring bus headway and ridership. - [ICCPS 2024 (Best Paper Award)](files/talusan2024ICCPS.pdf), [AAMAS 2024](files/talusan2024AAMAS.pdf)" | markdownify  }}
     </div>
