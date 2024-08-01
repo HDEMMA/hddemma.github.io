@@ -2,7 +2,14 @@
   captionhead: Optimizing Transit Operations
   text: Our solutions are being developed in collaboration with Chattanooga CARTA and Nashville WeGo.
   active: true
-  sequence: 1
+  sequence: 2
+
+# - video: /img/SmartTransit.mp4
+#   captionhead: 
+#   text: 
+#   active: true
+#   sequence: 1
+  
 
 - image: /img/energy.png
   captionhead: Energy Consumption Analysis and Prediction

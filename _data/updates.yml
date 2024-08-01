@@ -1,26 +1,25 @@
-- text: Our paper on [Deploying Mobility-On-Demand for All by Optimizing Paratransit Services](files/paviaIJCAI24AISG.pdf) was accepted at [IJCAI 2024](https://ijcai24.org/).  
+- text: Deploying [Mobility-On-Demand for All by Optimizing Paratransit Services](files/paviaIJCAI24AISG.pdf) was accepted at [IJCAI 2024](https://ijcai24.org/).  
   active: true
-  date: August 2024
+  date: August 2024  
+  link: "js/pdfjs/web/viewer.html?file=%2Ffiles%2FpaviaIJCAI24AISG.pdf#pagemode=none"
   sequence: 7
 
-- text: Our paper on [A Graph Neural Network Framework for Imbalanced Bus Ridership Forecasting](files/samir2024smartcomp.pdf) was accepted at [SMARTCOMP 2024](https://smartcomp.w.waseda.jp/).  
+- text: A [Graph Neural Network Framework for Imbalanced Bus Ridership Forecasting](files/samir2024smartcomp.pdf) was accepted at [SMARTCOMP 2024](https://smartcomp.w.waseda.jp/).  
   active: true
   date: June 2024
+  link: "js/pdfjs/web/viewer.html?file=%2Ffiles%2Fsamir2024smartcomp.pdf#pagemode=none"
   sequence: 7
 
-- text: Our paper on [An Online Approach to Solving Public Transit Stationing and Dispatch Problem](files/talusan2024ICCPS.pdf) was awarded the best paper at [ICCPS 2024](https://iccps.acm.org/2024/).  
+- text: An [Online Approach to Solving Public Transit Stationing and Dispatch Problem](files/talusan2024ICCPS.pdf) was awarded the [best paper](https://engineering.vanderbilt.edu/2024/06/03/ai-system-used-to-improve-nashville-public-transit-takes-top-honors-at-international-research-conference/) at [ICCPS 2024](https://iccps.acm.org/2024/).  
   active: true
   date: May 2024
-  sequence: 7
-
-- text: Our paper on [An Online Approach to Solving Public Transit Stationing and Dispatch Problem](files/talusan2024ICCPS.pdf) was accepted at [ICCPS 2024](https://iccps.acm.org/2024/).  
-  active: true
-  date: May 2024
+  link: "js/pdfjs/web/viewer.html?file=%2Ffiles%2Ftalusan2024ICCPS.pdf#pagemode=none"
   sequence: 7
   
-- text: Our paper on [Forecasting and Mitigating Disruptions in Public Bus Transit Services](files/talusan2024AAMAS.pdf) was accepted at [AAMAS 2024](https://www.aamas2024-conference.auckland.ac.nz/).  
+- text: Forecasting [and Mitigating Disruptions in Public Bus Transit Services](files/talusan2024AAMAS.pdf) was presented at [AAMAS 2024](https://www.aamas2024-conference.auckland.ac.nz/).  
   active: true
   date: May 2024
+  link: "js/pdfjs/web/viewer.html?file=%2Ffiles%2Ftalusan2024AAMAS.pdf#pagemode=none"
   sequence: 7
 
 - text: Our paper on [Rolling Horizon based Temporal Decomposition for the Offline Pickup and Delivery Problem with Time Windows](files/youngseo2023.pdf) was accepted at [AAAI 2023](https://aaai.org/Conferences/AAAI-23/).  

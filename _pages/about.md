@@ -8,7 +8,7 @@ redirect_from:
 - /about/
 - /about.html
 ---
-
+<!-- 
   <div class="containerh-100 d-flex justify-content-center">
     <div class="row">
       <div class="col-lg-12 col-xl-11 col-sm-12 mx-auto">
@@ -51,16 +51,64 @@ redirect_from:
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
   
   <section class="content-section" id="aboutus">
-    <div class="content-section-heading text-center">
+    <!-- <div class="content-section-heading text-center">
       <h2 class="mdc-typography--headline2 text-center m-0 p-0">About Us</h2>
-    </div>
+    </div> -->
     <div class="container-fluid ">
-        We are a research team that collaborates with Chattanooga Area Regional Transportation Authority (CARTA) and Nashville WeGo to design
+     <div class="row">
+       <div class="col-xl-6  col-lg-12 col-sm-12 d-flex align-items-stretch">
+       <div class="row">
+      <div class="col-lg-12 col-xl-11 col-sm-12 mx-auto">
+        <div id="carouselData" class="carousel slide carousel-fade"
+          data-ride="carousel" data-interval=8000>
+          <div class="carousel-inner">
+            {% for carousel in site.data.carousels %}
+            {% if carousel.active %}
+            <div class="carousel-item active align-items-center">
+              {% else %}
+              <div class="carousel-item align-items-center">
+                {% endif %}
+                {% if carousel.video %}
+                <video id="videoBanner" width="100%" loading="lazy" class="d-block w-100 p-0 m-0" autoplay 
+                  loop muted>
+                  <source src="{{ carousel.video }}" type="video/mp4" />
+                </video>
+                {% else %}
+                <img class="d-block w-100 p-0 m-0" loading="lazy" src="{{ carousel.image }}"
+                  alt="Slide">
+                {% endif %}
+                 {% if carousel.text %}
+                 <div class="carousel-caption d-none d-md-block">
+                 <p> {{ carousel.text }} </p>
+                 </div>
+                 {% endif %}
+              </div>
+              {% endfor %}
+            </div>
+            <a class="carousel-control-prev" href="#carouselData" role="button"
+              data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselData" role="button"
+              data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+       </div>
+     <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
+     We are a multidisciplinary research team comprising of computer scientists, civil engineers, social scientists, urban planners, and public transportation experts dedicated to designing innovative solutions for enhancing public transportation operations. Our focus is on improving availability, reliability, effectiveness, and efficiency. Funded through federal grants and in collaboration with partner agencies such as the Chattanooga Area Regional Transportation Authority (CARTA) and Nashville WeGo, we employ cutting-edge AI approaches to address integrated multi-modal logistics challenges at scale, incorporating both same-day and long-term future trends. A key aspect of our work is the design of models for real-time energy consumption of mixed-vehicle fleets, including electric, hybrid, and diesel vehicles. These models enable us to predict and optimize operations to reduce overall energy impact while maintaining system-wide capacity.
+        
+        
+        <!-- that collaborates with Chattanooga Area Regional Transportation Authority (CARTA) and Nashville WeGo to design
             efficient transit operation algorithms by using artificial intelligence and
             real-time data analysis at scale. This includes reinforcement
             learning, Monte-Carlo tree search, and operations-research based
@@ -69,19 +117,52 @@ redirect_from:
             models to estimate the load factors and real-time energy consumption
             of mixed-vehicle transit fleets and use those models to predict and
             optimize operations in order to lower overall energy impact while
-            ensuring that system-wide capacity remains unaffected.
-      </div>
+            ensuring that system-wide capacity remains unaffected. -->
+      </div></div>
+       </div>
   </section>
 
   
-  <section class="content-section" id="updates">
+  <section class="content-section " id="updates">
+    <div class="container-fluid">
+      <div class="content-section-heading text-center">
+        <h2 class="mdc-typography--headline2 p-2 text-center m-0 p-0">Publication Spotlight</h2>
+      </div>
+      <div class="row no-gutters justify-content-center">
+        {% for act in site.data.updates limit:4 %}
+        <div class="col-sm-10 col-lg-5 col-xl-5 p-lg-1 m-lg-1">
+          {% if act.link != blank or act.link != nil %}
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="{{ act.link }}"></iframe>
+            {% if act.learnmore != blank or act.learnmore != nil %}
+            <div class="text-center"><a class="btn btn-dark js-scroll-trigger"
+                href="{{ act.learnmore }}">Learn More</a></div>
+            {% endif %}
+          </div>
+          {% endif %}
+          <div class="caption text-center">
+            <div class="caption-content">               
+              <p class="mb-0">{{ act.text | markdownify }}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="caption text-center">
+      <a class="btn btn-dark js-scroll-trigger"
+                href="/publications/">See All Publications</a>   
+      </div>
+    </div>
+  </section>
+
+<!-- <section class="content-section" id="updates">
   <div class="content-section-heading text-justify">
-   <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">News and Updates</h2>
+   <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">Publication Spotlight</h2>
     </div>
     <div class="container-fluid">
    <ul class="fa-ul">
-  {% for update in site.data.updates %}
-  <li><span class="fa-li">
+  {% for update in site.data.updates limit:3 %}
+  <li class="p-0"><span class="fa-li p-0 m-0">
   {% if update.presentation %}
     <i class="fas fa-file-powerpoint">
     {% else %}
@@ -93,7 +174,11 @@ redirect_from:
   {% endfor %}
   </ul>
    </div>
-   </section>
+   </section> 
+-->
+
+     
+ 
 
   <!-- Research Areas -->
   {% assign sortedresearchareas = site.researchareas | sort: 'sequence' %}
@@ -127,10 +212,72 @@ redirect_from:
 
  
 
- 
-  <section class="content-section" id="scc">
+ <section class="content-section" id="spotlight">
     <div class="content-section-heading text-center">
-   <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">Smart and Connected Communities</h2>
+   <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">R&D Spotlights</h2>
+    </div>
+ <div class="container-fluid bg-light">
+     <div class="row p-1 m-1">
+     <div class="col-12">
+     <h2 class="mdc-typography--headline2 text-center m-2">MicroTransit and ParaTransit Operations Software</h2>
+     </div>
+    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">    
+    <video class="embed-responsive-item" width="100%"   controls="controls" muted="muted">
+        <source src="img/SmartTransitSystemAnnotated.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
+    {{ "The SmartTransit operations system is a modular on-demand public transportation routing system designed to enhance microtransit and paratransit services. It  integrates advanced vehicle routing algorithms into the daily operations of transit agencies, addressing the challenges posed by varying objectives and constraints. This system includes management software for dispatchers and mobile applications for drivers and users. The software has been validated and demonstrated in a southern USA city, in separate microtransit and paratransit pilots, showing significant improvements in operational efficiency, energy efficiency, and cost-effectiveness in both cases. Here are the key publications describing the vehicle routing algorithms related to this work - [Offline Routing With Negotiations @IJCAI 2022](files/sivagnanam2022offline.pdf), [Non-Myopic Online Routing @ICCPS 2022](files/wilbur2022.pdf) [Offline Scalable Routing With Rolling Horizons @AAAI 2023](files/youngseo2023.pdf)" | markdownify  }}
+    </div>
+    </div>
+    </div>
+
+ <div class="container-fluid mt-4">
+     <div class="row p-1 m-1">
+     <div class="col-12">
+     <h2 class="mdc-typography--headline2 text-center m-2">Microtransit and Paratransit Pilot Operations</h2>
+     </div>
+    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">    
+    <video class="embed-responsive-item" width="100%"   controls="controls" muted="muted">
+        <source src="img/SmartTransit.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
+    {{ "The SmartTransit operations system was recently tested in the Clifton Hills area of Chattanooga. The pilot  was conducted over a span of 27 service days between June and July 2024. On these service days, a vehicle, driver, and booking agent were deployed between 9 am and 3 pm. 
+The insights gained from this pilot will be instrumental in refining and expanding microtransit services to better serve the community. Our long-term vision is to provide on-demand microtransit services that act as feeders for high-capacity, fixed-route transit services. Implementing this vision will enable agencies  to provide energy-efficient and equitable transit access in areas with low population density, which are often underserved by existing transit solutions, by combining the energy efficiency of high-capacity transit with the flexibility of microtransit. The  Clifton Hills microtransit pilot served to demonstrate and evaluate our novel technology solutions for on-demand transit. Previously our team tested the system for the CARTA paratransit operations and saw major improvements. Here are the key publications describing the deployment and pilot operations - [IJCAI 2024 Demo](files/paviaIJCAI24demo.pdf), [Paratransit Pilot](files/paviaIJCAI24AISG.pdf)" | markdownify}}
+
+    
+    
+    </div>
+    </div>
+    </div>
+
+     <div class="container-fluid bg-light mt-4">
+     <div class="row p-1 m-1">
+     <div class="col-12">
+     <h2 class="mdc-typography--headline2 text-center m-2">Fixed Line Operations with WeGo</h2>
+     </div>
+    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">    
+    <video class="embed-responsive-item" width="100%"   controls="controls" muted="muted">
+        <source src="img/SmartTransitSystemAnnotated.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
+    {{ "Public transit systems provide critical services for large sections of modern communities. Thus, on-time performance and reliable quality of service is important in maintaining ridership. However, disruptions in the form of overcrowding, vehicular failure, and accidents often lead to a degradation in service performance. Current approaches rely heavily on domain expertise by transit agency operators, often resulting in static dispatch locations. We develop AI systems aimed at improving public transit operations by optimizing the stationing and dispatch of substitute buses via data driven models. We also developed Vectura, a dashboard for Nashville's public transportation network. This provides visualization tools to supplement transit operators by providing an information-rich portal for monitoring bus headway and ridership. - [ICCPS 2024 (Best Paper Award)](files/talusan2024ICCPS.pdf), [AAMAS 2024](files/talusan2024AAMAS.pdf)" | markdownify  }}
+    </div>
+    </div>
+    </div>
+
+</section>
+
+
+ 
+<!-- <section class="content-section" id="scc">
+    <div class="content-section-heading text-center">
+   <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">R&D Spotlights</h2>
     </div>
     <div class="container-fluid p-1 m-1">
       <div class="row p-0 m-0">
@@ -149,15 +296,14 @@ Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Founda
         </div>
       </div>
     </div>
-    <!-- <div class="text-center">    
-          <a class="btn btn-dark  js-scroll-trigger" href="#research">Research Areas</a></div> -->
-  </section>
+   
+  </section> -->
 
 
   <!-- About -->
   <section class="content-section bg-light text-center" id="team">
     <div class="content-section-heading text-center">
-      <h2 class="mdc-typography--headline2 text-center m-0 p-0">Partnering Organizations</h2>
+      <h2 class="mdc-typography--headline2 text-center m-0 p-0">Partners</h2>
     </div>
     <div class="container-fluid p-0 m-0 mx-auto">
       <div class="row p-1 m-1">
