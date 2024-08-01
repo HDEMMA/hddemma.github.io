@@ -123,7 +123,98 @@ redirect_from:
   </section>
 
   
-  <section class="content-section " id="updates">
+ 
+
+ 
+
+ <section class="content-section" id="spotlight">
+    <div class="content-section-heading text-center">
+   <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">R&D Spotlights</h2>
+    </div>
+ <div class="container-fluid bg-light">
+     <div class="row p-1 m-1">
+     <div class="col-12">
+     <h2 class="mdc-typography--headline2 text-center m-2">MicroTransit and ParaTransit Operations Software</h2>
+     </div>
+    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">    
+     <div class="embed-responsive embed-responsive-16by9">
+     <iframe class="embed-responsive-item" src=" https://www.youtube.com/embed/lF8r0JzHiQc"></iframe></div>
+    </div>
+    </div>
+    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
+    {{ "The SmartTransit operations system is a modular on-demand public transportation routing system designed to enhance microtransit and paratransit services. It  integrates advanced vehicle routing algorithms into the daily operations of transit agencies, addressing the challenges posed by varying objectives and constraints. This system includes management software for dispatchers and mobile applications for drivers and users. The software has been validated and demonstrated in a southern USA city, in separate microtransit and paratransit pilots, showing significant improvements in operational efficiency, energy efficiency, and cost-effectiveness in both cases. Here are the key publications describing the vehicle routing algorithms related to this work - [Offline Routing With Negotiations @IJCAI 2022](files/sivagnanam2022offline.pdf), [Non-Myopic Online Routing @ICCPS 2022](files/wilbur2022.pdf) [Offline Scalable Routing With Rolling Horizons @AAAI 2023](files/youngseo2023.pdf)" | markdownify  }}
+    </div>
+    </div>
+    </div>
+
+ <div class="container-fluid mt-4">
+     <div class="row p-1 m-1">
+     <div class="col-12">
+     <h2 class="mdc-typography--headline2 text-center m-2">Microtransit and Paratransit Pilot Operations</h2>
+     </div>
+    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">    
+    <!-- <video class="embed-responsive-item" width="100%"   controls="controls" muted="muted">
+        <source src="img/SmartTransit.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video> -->
+     <div class="embed-responsive embed-responsive-16by9">
+     <iframe class="embed-responsive-item" src=" https://www.youtube.com/embed/5-ikHn4g37s"></iframe></div>
+    </div>
+    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
+    {{ "The SmartTransit operations system was recently tested in the Clifton Hills area of Chattanooga. The pilot  was conducted over a span of 27 service days between June and July 2024. On these service days, a vehicle, driver, and booking agent were deployed between 9 am and 3 pm. 
+The insights gained from this pilot will be instrumental in refining and expanding microtransit services to better serve the community. Our long-term vision is to provide on-demand microtransit services that act as feeders for high-capacity, fixed-route transit services. Implementing this vision will enable agencies  to provide energy-efficient and equitable transit access in areas with low population density, which are often underserved by existing transit solutions, by combining the energy efficiency of high-capacity transit with the flexibility of microtransit. The  Clifton Hills microtransit pilot served to demonstrate and evaluate our novel technology solutions for on-demand transit. Previously our team tested the system for the CARTA paratransit operations and saw major improvements. Here are the key publications describing the deployment and pilot operations - [IJCAI 2024 Demo](files/paviaIJCAI24demo.pdf), [Paratransit Pilot](files/paviaIJCAI24AISG.pdf)" | markdownify}}
+
+    
+    
+    </div>
+    </div>
+    </div>
+
+     <div class="container-fluid bg-light mt-4">
+     <div class="row p-1 m-1">
+     <div class="col-12">
+     <h2 class="mdc-typography--headline2 text-center m-2">Fixed Line Operations with WeGo</h2>
+     </div>
+    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">    
+     <div class="embed-responsive embed-responsive-16by9">
+     <iframe class="embed-responsive-item" src=" https://www.youtube.com/embed/fbpID2Y5Aao"></iframe></div>
+    </div>
+    </div>
+    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
+    {{ "Public transit systems provide critical services for large sections of modern communities. Thus, on-time performance and reliable quality of service is important in maintaining ridership. However, disruptions in the form of overcrowding, vehicular failure, and accidents often lead to a degradation in service performance. Current approaches rely heavily on domain expertise by transit agency operators, often resulting in static dispatch locations. We develop AI systems aimed at improving public transit operations by optimizing the stationing and dispatch of substitute buses via data driven models. We also developed Vectura, a dashboard for Nashville's public transportation network. This provides visualization tools to supplement transit operators by providing an information-rich portal for monitoring bus headway and ridership. - [ICCPS 2024 (Best Paper Award)](files/talusan2024ICCPS.pdf), [AAMAS 2024](files/talusan2024AAMAS.pdf)" | markdownify  }}
+    </div>
+    </div>
+    </div>
+
+</section>
+
+
+ 
+<!-- <section class="content-section" id="scc">
+    <div class="content-section-heading text-center">
+   <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">R&D Spotlights</h2>
+    </div>
+    <div class="container-fluid p-1 m-1">
+      <div class="row p-0 m-0">
+        <div class="col-sm-6 col-lg-4 col-xl-3 p-0 ml-xl-3 my-auto mx-auto">
+            <img class="m-0 p-0 d-inline-flex" src="img/smartcities.png" alt="scopelab image">   
+        </div>
+        <div class="col-lg-7 col-xl-8 p-0 m-0 mx-auto">
+   <p class="card-text text-justify   mr-4"> This research effort is part of the broader research that is being conducted in the area of smart and connected communities (SCC). As a research area, SCC is multidisciplinary and lies at the intersection of cyber-physical systems, data science, and social sciences. This research area is enabled by the rapid and transformational changes driven by innovations in smart sensors, such as cameras and air quality monitors, which are now embedded in almost
+every physical device and system we use, from watches and smartphones to automobiles,
+homes, roads, and workplaces. Coupled with emerging new modes of networking, new
+algorithms for data analytics, and new paradigms of distributed computing like fog computing,
+these sensors create an “Internet of Things” (IoT) that provide endless opportunities for
+innovation and improving the quality of life, such as improved transportation with reduced
+congestion and more efficient use of energy and water. The effect of these innovations can be seen in a number of diverse domains, such as transportation, energy, emergency response, and health care, including the transit-related efforts of our team.
+Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Foundation page.</a> </p>
+        </div>
+      </div>
+    </div>
+   
+  </section> -->
+
+ <section class="content-section " id="updates">
     <div class="container-fluid">
       <div class="content-section-heading text-center">
         <h2 class="mdc-typography--headline2 p-2 text-center m-0 p-0">Publication Spotlight</h2>
@@ -209,99 +300,6 @@ redirect_from:
       {% endfor %}
     </div>
   </section>
-
- 
-
- <section class="content-section" id="spotlight">
-    <div class="content-section-heading text-center">
-   <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">R&D Spotlights</h2>
-    </div>
- <div class="container-fluid bg-light">
-     <div class="row p-1 m-1">
-     <div class="col-12">
-     <h2 class="mdc-typography--headline2 text-center m-2">MicroTransit and ParaTransit Operations Software</h2>
-     </div>
-    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">    
-    <video class="embed-responsive-item" width="100%"   controls="controls" muted="muted">
-        <source src="img/SmartTransitSystemAnnotated.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
-    {{ "The SmartTransit operations system is a modular on-demand public transportation routing system designed to enhance microtransit and paratransit services. It  integrates advanced vehicle routing algorithms into the daily operations of transit agencies, addressing the challenges posed by varying objectives and constraints. This system includes management software for dispatchers and mobile applications for drivers and users. The software has been validated and demonstrated in a southern USA city, in separate microtransit and paratransit pilots, showing significant improvements in operational efficiency, energy efficiency, and cost-effectiveness in both cases. Here are the key publications describing the vehicle routing algorithms related to this work - [Offline Routing With Negotiations @IJCAI 2022](files/sivagnanam2022offline.pdf), [Non-Myopic Online Routing @ICCPS 2022](files/wilbur2022.pdf) [Offline Scalable Routing With Rolling Horizons @AAAI 2023](files/youngseo2023.pdf)" | markdownify  }}
-    </div>
-    </div>
-    </div>
-
- <div class="container-fluid mt-4">
-     <div class="row p-1 m-1">
-     <div class="col-12">
-     <h2 class="mdc-typography--headline2 text-center m-2">Microtransit and Paratransit Pilot Operations</h2>
-     </div>
-    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">    
-    <!-- <video class="embed-responsive-item" width="100%"   controls="controls" muted="muted">
-        <source src="img/SmartTransit.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video> -->
-
-     <div class="embed-responsive embed-responsive-16by9">
-     <iframe class="embed-responsive-item" src=" https://www.youtube.com/embed/5-ikHn4g37s"></iframe></div>
-    </div>
-    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
-    {{ "The SmartTransit operations system was recently tested in the Clifton Hills area of Chattanooga. The pilot  was conducted over a span of 27 service days between June and July 2024. On these service days, a vehicle, driver, and booking agent were deployed between 9 am and 3 pm. 
-The insights gained from this pilot will be instrumental in refining and expanding microtransit services to better serve the community. Our long-term vision is to provide on-demand microtransit services that act as feeders for high-capacity, fixed-route transit services. Implementing this vision will enable agencies  to provide energy-efficient and equitable transit access in areas with low population density, which are often underserved by existing transit solutions, by combining the energy efficiency of high-capacity transit with the flexibility of microtransit. The  Clifton Hills microtransit pilot served to demonstrate and evaluate our novel technology solutions for on-demand transit. Previously our team tested the system for the CARTA paratransit operations and saw major improvements. Here are the key publications describing the deployment and pilot operations - [IJCAI 2024 Demo](files/paviaIJCAI24demo.pdf), [Paratransit Pilot](files/paviaIJCAI24AISG.pdf)" | markdownify}}
-
-    
-    
-    </div>
-    </div>
-    </div>
-
-     <div class="container-fluid bg-light mt-4">
-     <div class="row p-1 m-1">
-     <div class="col-12">
-     <h2 class="mdc-typography--headline2 text-center m-2">Fixed Line Operations with WeGo</h2>
-     </div>
-    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">    
-    <video class="embed-responsive-item" width="100%"   controls="controls" muted="muted">
-        <source src="img/SmartTransitSystemAnnotated.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-    <div class="col-xl-6 col-lg-12 col-sm-12 d-flex align-items-stretch">
-    {{ "Public transit systems provide critical services for large sections of modern communities. Thus, on-time performance and reliable quality of service is important in maintaining ridership. However, disruptions in the form of overcrowding, vehicular failure, and accidents often lead to a degradation in service performance. Current approaches rely heavily on domain expertise by transit agency operators, often resulting in static dispatch locations. We develop AI systems aimed at improving public transit operations by optimizing the stationing and dispatch of substitute buses via data driven models. We also developed Vectura, a dashboard for Nashville's public transportation network. This provides visualization tools to supplement transit operators by providing an information-rich portal for monitoring bus headway and ridership. - [ICCPS 2024 (Best Paper Award)](files/talusan2024ICCPS.pdf), [AAMAS 2024](files/talusan2024AAMAS.pdf)" | markdownify  }}
-    </div>
-    </div>
-    </div>
-
-</section>
-
-
- 
-<!-- <section class="content-section" id="scc">
-    <div class="content-section-heading text-center">
-   <h2 class="mdc-typography--headline2 text-center mb-1 pb-1">R&D Spotlights</h2>
-    </div>
-    <div class="container-fluid p-1 m-1">
-      <div class="row p-0 m-0">
-        <div class="col-sm-6 col-lg-4 col-xl-3 p-0 ml-xl-3 my-auto mx-auto">
-            <img class="m-0 p-0 d-inline-flex" src="img/smartcities.png" alt="scopelab image">   
-        </div>
-        <div class="col-lg-7 col-xl-8 p-0 m-0 mx-auto">
-   <p class="card-text text-justify   mr-4"> This research effort is part of the broader research that is being conducted in the area of smart and connected communities (SCC). As a research area, SCC is multidisciplinary and lies at the intersection of cyber-physical systems, data science, and social sciences. This research area is enabled by the rapid and transformational changes driven by innovations in smart sensors, such as cameras and air quality monitors, which are now embedded in almost
-every physical device and system we use, from watches and smartphones to automobiles,
-homes, roads, and workplaces. Coupled with emerging new modes of networking, new
-algorithms for data analytics, and new paradigms of distributed computing like fog computing,
-these sensors create an “Internet of Things” (IoT) that provide endless opportunities for
-innovation and improving the quality of life, such as improved transportation with reduced
-congestion and more efficient use of energy and water. The effect of these innovations can be seen in a number of diverse domains, such as transportation, energy, emergency response, and health care, including the transit-related efforts of our team.
-Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Foundation page.</a> </p>
-        </div>
-      </div>
-    </div>
-   
-  </section> -->
-
 
   <!-- About -->
   <section class="content-section bg-light text-center" id="team">
