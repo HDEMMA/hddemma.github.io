@@ -328,7 +328,7 @@ Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Founda
   </section>
 
   <!-- Portfolio -->
-  {% assign sortedactivities = site.activities | sort: 'sequence' %}
+  <!-- {% assign sortedactivities = site.activities | sort: 'sequence' %}
   <section class="content-section " id="activities">
     <div class="container-fluid">
       <div class="content-section-heading text-center">
@@ -361,7 +361,7 @@ Read more at the <a href="https://www.nsf.gov/cise/scc/">National Science Founda
                 href="/talks/">Learn More</a>   
       </div>
     </div>
-  </section>
+  </section> -->
 
 {% assign allpeople = site.data.people | sort: 'sequence' %}
 <section class="content-section " id="people">

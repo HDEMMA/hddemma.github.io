@@ -54,32 +54,18 @@
   role: PI
   sequence: 6
 
-- picture: /img/people/lillian.jpg
-  name: Lillian Ratliff
-  org: UW
-  link: https://faculty.washington.edu/ratliffl/
-  role: PI
-  sequence: 7
-
 - picture: /img/people/ayan.jpg
   name: Ayan Mukhopadhyay
   org: Vanderbilt University
   link: https://ayanmukhopadhyay.github.io/
-  role: Research Scientist
-  sequence: 8
-
-- picture: /img/people/malini.jpg
-  name: Malini Ghosal
-  org: PNNL
-  link: https://energyenvironment.pnnl.gov/staff/staff_info.asp?staff_num=3014
-  role: PI  
-  sequence: 9
+  role: PI
+  sequence: 1
 
 - picture: /img/people/michael.jpg
   name: Michael Wilbur
   org: Vanderbilt University
   link: https://www.linkedin.com/in/michael-p-wilbur-a0aabab6
-  role: Graduate Research Assistant
+  role: Alumni
   sequence: 10
 
 - picture: /img/people/Afiya.jpg
@@ -91,8 +77,8 @@
 - picture: /img/people/david.png
   name: David Rogers
   org: Vanderbilt University
-  role: Research Enginer
-  sequence: 11
+  role: Research Engineer
+  sequence: 2
 
 
 - picture: /img/people/amutheezan.jpg
@@ -109,12 +95,6 @@
   role: Graduate Research Assistant
   sequence: 12
 
-- picture: /img/people/jordan.jpg
-  name: Jordan Jurinsky
-  org: Vanderbilt University
-  link: https://peabody.vanderbilt.edu/bio/jordan-jurinsky
-  role: Graduate Research Assistant
-  sequence: 12
 
 - picture: /img/people/sophie.jpg
   name: Sophie Pavia
@@ -134,8 +114,8 @@
   name: Dr. Jose Paolo Talusan
   org: Vanderbilt University
   link: linkedin.com/in/jptalusan/
-  role: Post-doc
-  sequence: 12
+  role: Research Scientist
+  sequence: 5
 
 - picture: /img/people/mehdi.webp
   name: Medhi Khaleghian
@@ -143,12 +123,5 @@
   link: https://www.linkedin.com/in/mehdi-khaleghian-0b827237?trk=public_profile_browsemap_profile-result-card_result-card_full-click
   role: Graduate Research Assistant
   sequence: 12
-
-- picture: /img/people/chamsi.png
-  name: Chamsi Hssaine
-  org: Cornell University
-  link: https://chamsihssaine.github.io/
-  role: Graduate Research Assistant
-  sequence: 11
 
   
